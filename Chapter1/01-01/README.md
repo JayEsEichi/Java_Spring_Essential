@@ -10,4 +10,17 @@
 
 ## 자바 프로그래밍 
     자바의 역사 
+
+    자바 프로그래밍의 특징
+
+
+## 자바로 프로그래밍을 하면 좋은 이유는 뭔가요? (객체 지향 프로그래밍의 장점)
+
+
+## 이 과정에서 배워야 할 내용
+
+
+## 다음 강의
+    [02. 자바와 이클립스 설치하기](https://gitlab.com/easyspubjava/javacoursework/-/edit/master/Chapter1/01-02/README.md)
+
     
