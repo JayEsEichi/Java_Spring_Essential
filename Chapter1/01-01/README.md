@@ -43,6 +43,13 @@
 
 * 자바 언어의 정확한 이해를 통한 문제 해결하기(객체지향, 알고리즘 문제 등)
 
+
+## 용어 정리
+
+    JDK(Java Development Kit) :
+    JRE(Java Runtime Environment) :
+    JVM(Java Virtual Machine) : 
+
 ## 다음 강의
 [02. 자바와 이클립스 설치하기](https://gitlab.com/easyspubjava/javacoursework/-/edit/master/Chapter1/01-02/README.md)
 
