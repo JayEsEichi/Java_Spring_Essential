@@ -14,7 +14,7 @@
 
     자바 프로그래밍의 특징
         * 플랫폼에 영향을 받지 않으므로 다양한 환경에서 사용할 수 있다.
-        
+        ![Alt text](./img/vm.PNG)
 
 
         * 객체 지향 언어이기 때문에 유지보수가 쉽고 확장성이 좋다.
@@ -30,7 +30,7 @@
 
 
 ## 이 과정에서 배워야 할 내용
-![Alt text](./img/vm.PNG)
+
 ## 다음 강의
 [02. 자바와 이클립스 설치하기](https://gitlab.com/easyspubjava/javacoursework/-/edit/master/Chapter1/01-02/README.md)
 
