@@ -30,7 +30,7 @@
 
 
 ## 이 과정에서 배워야 할 내용
-![Alt text](/img/vm.png)
+![Alt text](./img/vm.PNG)
 ## 다음 강의
 [02. 자바와 이클립스 설치하기](https://gitlab.com/easyspubjava/javacoursework/-/edit/master/Chapter1/01-02/README.md)
 
