@@ -30,8 +30,7 @@
 
 
 ## 이 과정에서 배워야 할 내용
-
-<img src="/img/vm.png" width="450px" height="300px" title="" alt="RubberDuck"></img><br/>
+![Alt text](/img/vm.png)
 ## 다음 강의
 [02. 자바와 이클립스 설치하기](https://gitlab.com/easyspubjava/javacoursework/-/edit/master/Chapter1/01-02/README.md)
 
