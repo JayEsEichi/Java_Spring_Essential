@@ -24,6 +24,13 @@
   * 풍부한 기능이 제공되는 오픈 소스이다.
 
 
+## 객체 지향 프로그래밍이 무엇인가?
+
++ 프로그램의 구현을 시간의 흐름순이 아닌 객체간의 관계와 협력을 기반으로 프로그램 하는 것
+
++ Object oriented programming(OOP)  이라고 함 ( cf. 절차 지향 프로그래밍 proedural programming )
+ 
+
 ## 자바로 프로그래밍을 하면 좋은 이유는 뭔가요? (객체 지향 프로그래밍의 장점)
 ![why java](./img/usejava.png)
 
