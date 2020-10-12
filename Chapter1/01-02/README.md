@@ -15,3 +15,7 @@
 이클립스는 지속적으로 업그레이드 됨
 
 ![eclipse](./img/eclipse.PNG)
+
+
+## 3. 다음 강의 
+[03. 자바 첫 프로그램 만들고 실행하기](https://gitlab.com/easyspubjava/javacoursework/-/edit/master/Chapter1/01-03/README.md)
