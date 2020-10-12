@@ -46,7 +46,7 @@ public class BinaryTest {
 ```
 
 ## 다음 강의 
-[05. 변수는 변하는 수입니다](https://gitlab.com/easyspubjava/javacoursework/-/edit/master/Chapter1/01-05/README.md)
+[05. 변수는 변하는 수입니다](https://gitlab.com/easyspubjava/javacoursework/-/tree/master/Chapter1/01-05/README.md)
 
 
 
