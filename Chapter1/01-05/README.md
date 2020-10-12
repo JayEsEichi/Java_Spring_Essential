@@ -33,5 +33,5 @@ public class VariableTest {
     
     자바에서 이미 사용하고 있는 예약어는 사용할 수 없음
 
-    변수 이름은 프로그램 내에서 사용되는 것이므로 그 용도에 맞게 명명하는것이 좋음
-    ex) int numberOfStudent
+    변수 이름은 프로그램내에서 사용되는 것이므로 그 용도에 맞고 가독성이 좋게 만드는것이 중요
+    ex) int numberOfStudent;
