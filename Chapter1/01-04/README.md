@@ -24,5 +24,31 @@
     두 개의 비트로 나타낼 수 있는 수 : 00, 01, 10, 11 (4개)
     세 개의 비트로 나타낼 수 있는 수 : 000, 001, 010, 011, 100, 101, 110, 111 (8개)
 
+## 2진수, 8진수, 16진수를 프로그램에서 사용하는 예제
+```
+package variable;
+
+public class BinaryTest {
+
+	public static void main(String[] args) {
+
+		int num = 10;
+		int bNum = 0B1010;
+		int oNum = 012;
+		int xNum = 0XA;
+		
+		
+		System.out.println(num);
+		System.out.println(bNum);
+		System.out.println(oNum);
+		System.out.println(xNum);
+	}
+}
+```
+
+
+
+
+
 
     
