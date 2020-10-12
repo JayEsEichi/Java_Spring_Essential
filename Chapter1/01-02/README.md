@@ -18,4 +18,4 @@
 
 
 ## 3. 다음 강의 
-[03. 자바 첫 프로그램 만들고 실행하기](https://gitlab.com/easyspubjava/javacoursework/-/edit/master/Chapter1/01-03/README.md)
+[03. 자바 첫 프로그램 만들고 실행하기](https://gitlab.com/easyspubjava/javacoursework/-/tree/master/Chapter1/01-03/README.md)
