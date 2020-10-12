@@ -4,7 +4,7 @@
 
  * WorkSpace 설정
  
-   ![workspace](./img/worspace.png)
+   ![workspace](./img/workspace.png)
 
  * 프로젝트 만들기와 화면의 구성
 
