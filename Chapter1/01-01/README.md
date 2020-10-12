@@ -30,6 +30,7 @@
 
 + Object oriented programming(OOP)  이라고 함 ( cf. 절차 지향 프로그래밍 proedural programming )
  
++ 사용 하는 언어 : Java, C++, C#, Python, JavaScript, Ruby 등 다수
 
 ## 자바로 프로그래밍을 하면 좋은 이유는 뭔가요? (객체 지향 프로그래밍의 장점)
 ![why java](./img/usejava.png)
