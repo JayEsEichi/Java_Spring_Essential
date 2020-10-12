@@ -37,9 +37,7 @@
 
 + 숫자의 뒤에 알파벳 L 또는 l 을 써서 long 형임을 표시 함
 
-+ 예) int num = 12345678900; // 오류
-
-      long lnum = 12345678900; //오류
-      
-      long lnumber = 12345678900L; // ok
++ 예) int num = 12345678900; // 오류 <br>
+     long lnum = 12345678900; //오류 <br>
+     long lnumber = 12345678900L; // ok
 
