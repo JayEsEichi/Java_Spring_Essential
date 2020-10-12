@@ -38,3 +38,6 @@ public class VariableTest {
 
     변수 이름은 프로그램내에서 사용되는 것이므로 그 용도에 맞고 가독성이 좋게 만드는것이 중요
     ex) int numberOfStudent;
+
+## 다음 강의 
+[06. 자료형 - 정수는 어떻게 표현하나요? ] (https://gitlab.com/easyspubjava/javacoursework/-/edit/master/Chapter1/01-06/README.md)
