@@ -41,3 +41,5 @@
       long lnum = 12345678900; //오류 <br>
       long lnumber = 12345678900L; // ok
 
+## 다음 강의 
+[07. 자료형(data type)- 실수는 어떻게 표현하나요?](https://gitlab.com/easyspubjava/javacoursework/-/tree/master/Chapter1/01-07/README.md)
