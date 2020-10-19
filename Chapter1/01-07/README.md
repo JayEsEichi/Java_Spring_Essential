@@ -9,8 +9,8 @@
 
    -  지수부와 가수부로 표현 함
 
-## -float형과 double형 
-      ![float.png](./img/float.png)
+## - float형과 double형 
+   ![float.png](./img/float.png)
       
 
 
