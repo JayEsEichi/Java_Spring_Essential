@@ -60,3 +60,6 @@
    출력 결과 
 
    ![output.png](./img/output.PNG)
+
+## 다음 강의
+[08. 문자는 프로그램에서 어떻게 표현하여 사용하나요?](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter1/01-08/README.md)
