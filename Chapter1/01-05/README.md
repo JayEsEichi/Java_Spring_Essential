@@ -40,4 +40,4 @@ public class VariableTest {
     ex) int numberOfStudent;
 
 ## 다음 강의 
-[06. 자료형 - 정수는 어떻게 표현하나요? ](https://gitlab.com/easyspubjava/javacoursework/-/tree/master/Chapter1/01-06/README.md)
+[06. 자료형(data type) - 정수는 어떻게 표현하나요? ](https://gitlab.com/easyspubjava/javacoursework/-/tree/master/Chapter1/01-06/README.md)
