@@ -21,7 +21,8 @@
 
    자바에서는 실수의 기본 타입은 dobule을 사용 함
 
-  `public class DoubleEx {
+`
+public class DoubleEx {
 
 	public static void main(String[] args) {
 
