@@ -5,12 +5,12 @@
    
    -  부동 소수점 방식으로 실수 값 0.1 표현 
 
-      [realnum](./img/realnum.png)
+      ![realnum](./img/realnum.png)
 
    -  지수부와 가수부로 표현 함
 
 ## -float형과 double형 
-   [float.png](./img/float.png)
+      ![float.png](./img/float.png)
       
 
 
