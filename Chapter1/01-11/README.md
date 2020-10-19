@@ -46,7 +46,8 @@
 
 ![add2](./img/add2.png)
 
-
+## 다음 강의 
+[12 자바의 연산자들 -2 (관계, 논리 연산자)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter1/01-12/README.md)
 
 
 
