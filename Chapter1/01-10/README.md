@@ -53,4 +53,23 @@ public class ConstantTest {
 
 ![conversion.png](./img/conversion.PNG)
 
+```
+byte bNum = 10;
+int iNum = bNum;  
+
+int iNum1 = 20;
+float fNum = iNum2;
+
+int iNum = 10;
+byte bNum = (byte)iNum;
+
+double dNum = 3.14;
+int iNum2 = (int)dNum;
+
+```
+
+
+
+
+
 
