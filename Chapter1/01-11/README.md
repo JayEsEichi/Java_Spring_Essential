@@ -34,8 +34,6 @@
 - 대입 연산자와 다른 연산자가 함께 쓰임<br>
 ![multi](./img/multi.png) <br>
 
- ![multi2](./img/multi2.png)
-
 ## 증가, 감소 연산자
 
 - 단항 연산자
