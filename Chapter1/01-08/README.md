@@ -66,4 +66,4 @@ public class CharacterTest {
 
     UTF-16: 2바이트로 문자를 표현
 
-    [한글 유니코드 표](http://www.unicode.org/charts/PDF/UAC00.pdf)
+    ![한글 유니코드 표](http://www.unicode.org/charts/PDF/UAC00.pdf)
