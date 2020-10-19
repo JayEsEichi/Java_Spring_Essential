@@ -25,7 +25,7 @@
 ## 산술 연산자
 
 - 사칙 연산자
-![add](./img/add.PNG)
+![add](./img/add.png)
 
 - % 나머지 구하는 연산자, 숫자 n 의 나머지 범위는 0 ~ n-1
 
@@ -34,7 +34,7 @@
 - 대입 연산자와 다른 연산자가 함께 쓰임
 ![multi](./img/multi.png)
 
-![multi2](./img/multi2.png)
+ ![multi2](./img/multi2.png)
 
 ## 증가, 감소 연산자
 
