@@ -1,4 +1,4 @@
-# 07. 자료형 - 실수는 어떻게 표현하나요?
+# 07. 자료형(data type) - 실수는 어떻게 표현하나요?
 
 ## - 부동 소수점 방식
    -  실수는 정수 보다 정밀하기 때문에 정수와는 다른 방식으로 표현해야 함
@@ -62,4 +62,4 @@
    ![output.png](./img/output.PNG)
 
 ## 다음 강의
-[08. 문자는 프로그램에서 어떻게 표현하여 사용하나요?](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter1/01-08/README.md)
+[08. 자료형(data type) - 문자는 프로그램에서 어떻게 표현하여 사용하나요?](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter1/01-08/README.md)
