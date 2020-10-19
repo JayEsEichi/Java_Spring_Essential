@@ -31,7 +31,7 @@ public class BooleanTest {
 
  - 지역 변수만 사용 가능
 
- ```
+```
  package ch09;
 
 public class LocalVariableType {
