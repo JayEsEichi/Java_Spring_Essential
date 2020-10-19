@@ -21,21 +21,10 @@
 
    자바에서는 실수의 기본 타입은 dobule을 사용 함
 
-`
-public class DoubleEx {
 
-	public static void main(String[] args) {
-
-		double dnum = 3.14;
-		float fnum = 3.14F;
-		
-		System.out.println(dnum);
-		System.out.println(fnum);
-	}
-}
-`
-      
+## float 와 double 예제
 
 
 
 
+## 부동 소수점 방식의 오류
