@@ -9,7 +9,7 @@
 07. [자료형(data type)- 실수는 어떻게 표현하여 사용하나요?](https://gitlab.com/easyspubjava/javacoursework/-/tree/master/Chapter1/01-07/README.md)
 08. [자료형(data type)- 문자는 프로그램에서 어떻게 표현하여 사용하나요?](https://gitlab.com/easyspubjava/javacoursework/-/tree/master/Chapter1/01-08/README.md)
 09. [자료형(data type)- 논리형과 자료형 없이 변수 사용하기](https://gitlab.com/easyspubjava/javacoursework/-/tree/master/Chapter1/01-09/README.md)
-10. [변하지 않는 상수와 리터럴](https://gitlab.com/easyspubjava/javacoursework/-/tree/master/Chapter1/01-10/README.md)
+10. [변하지 않는 상수와 리터럴, 변수의 형 변환](https://gitlab.com/easyspubjava/javacoursework/-/tree/master/Chapter1/01-10/README.md)
 11. [자바의 연산자들 -1 (대입, 부호, 산술, 복합대입, 증감연산자)](https://gitlab.com/easyspubjava/javacoursework/-/tree/master/Chapter1/01-11/README.md)
 12. [자바의 연산자들 -2 (관계, 논리 연산자)](https://gitlab.com/easyspubjava/javacoursework/-/tree/master/Chapter1/01-12/README.md)
 13. [자바의 연산자들 -3 (조건 연산자, 비트 연산자)](https://gitlab.com/easyspubjava/javacoursework/-/tree/master/Chapter1/01-13/README.md)
