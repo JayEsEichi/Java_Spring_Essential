@@ -53,5 +53,5 @@ public class LocalVariableType {
 ```
 
 ## 다음 강의 
-![10. 변하지 않는 상수와 리터럴](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter1/01-10/README.md)
+[10. 변하지 않는 상수와 리터럴](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter1/01-10/README.md)
 
