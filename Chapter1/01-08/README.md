@@ -43,7 +43,8 @@ public class CharacterTest {
 		System.out.println((char)ch3);
 		
 		//char ch4 = -66;  음수는 대입 할 수 없음
-    	char ch5 = '한';
+
+    		char ch5 = '한';
 		char ch6 = '\uD55C';
 		
 		System.out.println(ch5);
