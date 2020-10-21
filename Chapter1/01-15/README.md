@@ -32,7 +32,7 @@
 public class IfElseIfElseTest {
 
 	public static void main(String[] args) {
-		int age = 15;
+		int age = 12;
 		int charge;
 		
 		if(age < 8){
