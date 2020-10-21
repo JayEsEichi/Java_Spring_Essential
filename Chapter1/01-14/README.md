@@ -30,4 +30,30 @@
           수행문2;    // 조건식이 '참'이 아닌 경우에 수행됨
       }
   
+
+- if - else 예제
+
+```
+package ch14;
+
+import java.util.Scanner;
+
+public class IfElseTest {
+
+	public static void main(String[] args) {
+
+		int age = 7;
+
+		//Scanner scanner = new Scanner(System.in);
+		//int age = scanner.nextInt();
+		
+		if( age >= 8) {
+			System.out.println("학교에 다닙니다");
+		}
+		else {
+			System.out.println("학교에 다니지 않습니다.");
+		}
+	}
+}
+```
    
