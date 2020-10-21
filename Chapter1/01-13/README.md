@@ -37,6 +37,7 @@ public class ConditionTest {
 
 
 ## 비트 연산자
+![bit][./img/bit.PNG]
 
 
 ## 연산자 우선순위
