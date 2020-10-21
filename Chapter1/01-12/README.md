@@ -31,7 +31,7 @@ public class RealtionalTest {
 	}
 }
 ```
-
+![relationa](./img/relationa.PNG)
 
 ## 논리 연산자
 
@@ -68,7 +68,7 @@ public class LogicalTest {
 	}
 }
 ```
-
+![logicala](./img/logicala.PNG)
 
 ## 논리 연산에서 모든 항이 실행되지 않는 경우 - 단락 회로 평가 (short circuit evaluation)
 
@@ -103,6 +103,7 @@ public class ShortCircuit {
 	}
 }
 ```
+![shorta](./img/shorta.PNG)
 ## 다음 강의 
 [13. 자바의 연산자들 -3 (조건 연산자, 비트 연산자)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter1/01-13/README.md)
 
