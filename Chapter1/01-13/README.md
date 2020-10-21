@@ -80,3 +80,6 @@ public class BitTest {
 ## 연산자 우선순위
 
 ![priority](./img/priority.png)
+
+## 다음 강의
+[14. 조건문 - if 문(만약에... 라면)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter1/01-14/README.md)
