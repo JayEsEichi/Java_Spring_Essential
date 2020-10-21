@@ -10,3 +10,5 @@
 
 
 ## 연산자 우선순위
+
+![priority](./img/priority.png)
