@@ -8,7 +8,8 @@
 
 - if (조건문)을 간단히 표현할 때 사용 할 수 있음
 
-![conditionop][./img/conditionop.png]
+
+![conditionop](./img/conditionop.png)
 
 
 
