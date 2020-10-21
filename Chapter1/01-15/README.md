@@ -24,7 +24,7 @@
 
         가령 조건식2가 만족되면 수행문2 -> 수행문5  순으로 수행됨
 
- ![ifelseif](/img/ifelseif.PNG)
+ ![ifelseif](./img/ifelseif.PNG)
 
  
 ## if-else if 문과 if - if 문의 차이점
