@@ -32,6 +32,8 @@
   -- 앞의 항의 결과가 true이면 뒤 항의 결과를 평가하지 않음 
 
 
+## 다음 강의 
+[13. 자바의 연산자들 -3 (조건 연산자, 비트 연산자)](!https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter1/01-13/README.md)
 
 
 
