@@ -75,6 +75,7 @@ public class BitTest {
 	}
 }
 ```
+![bita](./img/bita.PNG)
 
 ## 연산자 우선순위
 
