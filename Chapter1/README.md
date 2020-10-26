@@ -1,4 +1,4 @@
-# 자바 기초
+# 1. 자바 기초
 
 01. [자바 프로그래밍 시작하기](https://gitlab.com/easyspubjava/javacoursework/-/tree/master/Chapter1/01-01/README.md)
 02. [자바와 이클립스 설치하기](https://gitlab.com/easyspubjava/javacoursework/-/tree/master/Chapter1/01-02/README.md)
