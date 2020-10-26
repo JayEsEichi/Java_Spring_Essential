@@ -40,7 +40,7 @@ public class BreakTest {
 
 ## continue문 예제
 
-- 1부터 100까지 숫자 중 3의 배수만을 출력하세요
+- 1부터 100까지 숫자 중 3의 배수를 출력하세요
 
 ```
 package ch21;
