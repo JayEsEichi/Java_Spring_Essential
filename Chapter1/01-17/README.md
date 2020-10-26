@@ -16,3 +16,46 @@
 - 수행문을 수행하기 전 조건을 체크하고 그 조건의 결과가 true인 동안 반복 수행
 
 ![while](./img/while.png)
+
+
+# while 문 예제
+
+- 1부터 10까지 더하여 그 결과를 출력해 보자
+
+```
+package ch17;
+
+public class WhileTest {
+
+	public static void main(String[] args) {
+
+		int num = 1;
+		int sum  = 0;
+		
+		while( num <= 10) {
+			
+			sum += num;
+			num++;
+		}
+		
+		System.out.println(sum);
+		System.out.println(num);
+	}
+
+}
+```
+
+## 무한 반복 할 때
+
+``` 
+   while(true){
+
+       .......
+   }
+```
+
+
+
+
+
+
