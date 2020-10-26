@@ -15,4 +15,4 @@
  
 - 수행문을 수행하기 전 조건을 체크하고 그 조건의 결과가 true인 동안 반복 수행
 
-![while](/img/while.png)
+![while](./img/while.png)
