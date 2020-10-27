@@ -24,3 +24,7 @@
         참조 변수 : 메모리에 생성된 인스턴스를 가리키는 변수
 
         참조 값 : 생성된 인스턴스의 메모리 주소 값
+
+
+## 다음 강의
+[06. 생성자에 대해 알아봅시다 (constructor)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-06/README.md)
