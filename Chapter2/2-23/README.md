@@ -24,4 +24,5 @@
 
 
 ## 다음 강의
+[24. 함수와 메서드](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-24/README.md)
 
