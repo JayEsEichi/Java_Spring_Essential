@@ -49,6 +49,19 @@ public class UserInfo {
 
 ## 객체 지향 프로그램을 할 때는 
 
+- 객체를 정의 하고
+
+- 각 객체의 속성을 멤버 변수로 역할(기능)을 메서드로 구현하고
+
+- 각 객체간의 협력을 구현합니다.
+
+## 클래스 코딩하기
+
+- 클래스는 대문자로 시작하는것이 좋음
+
+- java 파일 하나에 클래스는 여러 개가 있을 수 있지만, public 클래스는 하나이고, public 클래스와 .java 파일의 이름은 동일함
+
+- camel notation 방식으로 명명
 
 ## 다음 강의
 [24. 함수와 메서드](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-24/README.md)
