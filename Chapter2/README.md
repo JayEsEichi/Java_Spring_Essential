@@ -5,7 +5,7 @@
 02. [생활 속에서 객체 찾아 클래스로 구현해보기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-02/README.md)
 03. [함수와 메서드](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-03/README.md)
 04. [객체의 속성은 멤버 변수로, 객체의 기능은 메서드로 구현한다](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-04/README.md)
-05. [인스턴스와 힙 메모리](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-05/README.md)
+05. [인스턴스 생성과 힙 메모리](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-05/README.md)
 06. [생성자에 대해 알아봅시다 (constructor)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-06/README.md)
 07. [여러가지 생성자를 정의하는 생성자 오버로딩 (overloading)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-07/README.md)
 08. [복습해봅시다(객체 구현하기)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-08/README.md)
