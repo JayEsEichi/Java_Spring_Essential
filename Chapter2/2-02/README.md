@@ -12,13 +12,40 @@
 ## 클래스는 객체의 청사진(blueprint) 입니다
 
 - 학생 클래스
+```
+public class Student {
 
+	int studentNumber;
+	String studentName;
+	int majorCode;
+	String majorName;
+	int grade;
+}
+```
 
 - 주문 클래스
+```
+public class Order {
 
+	int orderId;
+	String buyerId;
+	String sellerId;
+	int productId;
+	String orderDate;
+}
+```
 
 - 회원 클래스
+```
+public class UserInfo {
 
+	String userId;
+	String userPassWord;
+	String userName;
+	String userAddress;
+	int phoneNumber;
+}
+```
 
 ## 객체 지향 프로그램을 할 때는 
 
