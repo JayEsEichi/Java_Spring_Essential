@@ -11,6 +11,8 @@
 
 ## 클래스는 객체의 청사진(blueprint) 입니다
 
+- 객체의 속성은 클래스의 **멤머 변수(member variable)**로 선언 함
+
 - 학생 클래스
 ```
 public class Student {
