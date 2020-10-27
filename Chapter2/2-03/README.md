@@ -10,6 +10,18 @@
 
 ![function](./img/function.png)
 
+## 함수 정의하기
+
+함수는 이름, 매개 변수, 반환 값, 함수 몸체(body)로 구성됨
+
+```
+int add(int num1, int num2) {
+		
+	int result;
+	result = num1 + num2;
+	return result;
+}
+```
 
 ## 메서드 (method) 
 
