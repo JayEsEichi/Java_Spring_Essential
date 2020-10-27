@@ -26,11 +26,12 @@
 
 ## 참조 변수, 참조 값
 
+```
   Student studentLee = new Student();
   studentLee.studentName = "홍길동";
 
   System.out.println(studentLee);
-
+```
 
 ## 용어 정리
 
