@@ -10,7 +10,7 @@
 07. [여러가지 생성자를 정의하는 생성자 오버로딩 (overloading)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-07/README.md)
 08. [복습해봅시다(객체 구현하기)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-08/README.md)
 09. [참조 자료형 변수](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-09/README.md)
-10. [객체 정보의 접근을 제어하는 접근 제어자와 정보은닉(infomation hiding)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-10/README.md)
+10. [접근 제어자(access modifier)와 정보은닉(infomation hiding)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-10/README.md)
 11. [캡슐화 (encapsulation)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-11/README.md)
 12. [객체 자신을 가리키는 this](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-12/README.md)
 13. [객체 간의 협력 (collaboration)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-13/README.md)
