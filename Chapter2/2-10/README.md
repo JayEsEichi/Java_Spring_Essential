@@ -28,3 +28,19 @@
 
 private 일때 각 변수에 대한 제한을 public 메서드에서 제어 할 수 있다.
 
+
+```
+public void setMonth(int month) {
+		
+		if ( month < 1 || month > 12) {
+			isValid = false;
+		}
+		else {
+			this.month = month;
+		}
+	}
+```
+
+- 객체 지향 프로그램에서 정보 은닉은 필요한 외부에서 접근 가능한 최소한의 정보를 오픈함으로써 객체의 오류를 방지하 클라이언트 객체가 더 효율적으로 객체를 활용할 수 있도록 해준다.
+
+
