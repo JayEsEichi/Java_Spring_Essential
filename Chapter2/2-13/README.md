@@ -14,5 +14,5 @@
 
 ## 다음 강의 
 
-
+[버스 타고 학교 가는 학생의 과정을 객체 지향 프로그래밍으로 구현해보기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-14/README.md)
 
