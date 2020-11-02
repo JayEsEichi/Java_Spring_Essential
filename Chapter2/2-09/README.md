@@ -101,3 +101,5 @@ public class StudentTest {
 ![subject](./img/subject.PNG)
 
 
+## 다음 강의 
+[10. 접근 제어 지시자(access modifier)와 정보은닉(infomation hiding)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-10/README.md)
