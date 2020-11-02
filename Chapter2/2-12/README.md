@@ -44,6 +44,7 @@ public class Person {
 		this.age = age;
 	}
 }
+```
 
 ## 자신의 주소를 반환하는 this
 
@@ -79,3 +80,4 @@ public class Person {
 	}
 }
 ```
+![this2](./img/this2.PNG)
