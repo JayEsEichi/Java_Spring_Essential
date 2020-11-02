@@ -10,7 +10,7 @@
 
 - 객체 협력의 예 
 
-![bus](./imt/bus.PNG)
+![bus](./img/bus.PNG)
 
 ## 다음 강의 
 
