@@ -16,7 +16,7 @@
 13. [객체 간의 협력 (collaboration)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-13/README.md)
 14. [버스 타고 학교 가는 학생의 과정을 객체 지향 프로그래밍으로 구현해보기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-14/README.md)
 15. [복습해봅시다  (객체 협력)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-15/README.md)
-16. [클래스의 여러 인스턴스에서 공통으로 사용하는 변수를 선언하자 - static 변수](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-16/README.md)
+16. [여러 인스턴스에서 공통으로 사용하는 변수를 선언하자 - static 변수](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-16/README.md)
 17. [static 메서드의 구현과 활용](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-17/README.md)
 18. [static 응용 - 싱글톤 패턴 (singleton pattern)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-18/README.md)
 19. [복습해봅시다(static)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-19/README.md)
