@@ -80,5 +80,6 @@ public class EmployeeTest {
 ![employee1](./img/employee1.png)
 
 
-
+- static 변수는 인스턴스에서 공통으로 사용하는 영역임음 알 수 있음
+![mem](./img/mem.png)
 
