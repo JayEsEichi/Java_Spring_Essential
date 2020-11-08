@@ -24,8 +24,7 @@
 21. [객체 배열 사용하기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-21/README.md)
 22. [2차원 배열 사용하기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-22/README.md)
 23. [배열을 구현한 클래스 ArrayList](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-23/README.md)
-24. [ArrayList 메서드 활용하기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-24/README.md)
-25. [ArrayList를 활용한 간단한 성적 산출 프로그램](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-25/README.md)
+24. [ArrayList를 활용한 간단한 성적 산출 프로그램](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-24/README.md)
 
 
 
