@@ -30,7 +30,7 @@ public class TwoDimensionTest {
 	}
 }
 ```
-
+![length](./img/length.PNG)
 
 
 
