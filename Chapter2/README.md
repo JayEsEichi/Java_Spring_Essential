@@ -23,7 +23,7 @@
 20. [자료를 순차적으로 한꺼번에 관리하는 방법 - 배열(array)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-20/README.md)
 21. [객체 배열 사용하기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-21/README.md)
 22. [2차원 배열 사용하기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-22/README.md)
-23. [배열을 구현한 클래스 ArrayList](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-23/README.md)
+23. [객체 배열을 구현한 클래스 ArrayList](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-23/README.md)
 24. [ArrayList를 활용한 간단한 성적 산출 프로그램](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-24/README.md)
 
 
