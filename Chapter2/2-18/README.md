@@ -46,3 +46,5 @@ public class CompanyTest {
 	}
 }
 ```
+
+![singleton](./img/singleton.png)
