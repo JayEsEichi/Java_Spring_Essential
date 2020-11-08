@@ -117,3 +117,9 @@ public class EmployeeTest {
 }
 ```
 ![employee2](./img/employee2.png)
+
+## static 변수와 메서드는 인스턴스 변수, 메서드가 아니므로 클래스 이름으로 직접 참조
+
+```
+System.out.println(Employee.serialNum);
+```
