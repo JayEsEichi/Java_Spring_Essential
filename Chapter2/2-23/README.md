@@ -12,4 +12,4 @@
 
 ## ArrayList의 주요 메서드
 
-![method](./img/method)
+![method](./img/method.png)
