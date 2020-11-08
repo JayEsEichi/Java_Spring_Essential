@@ -1,4 +1,4 @@
-# static메서드의 구현과 활용
+# static메서드의 구현과 활용, 변수의 유효 범위
 
 ## static 메서드 만들기
 
@@ -52,4 +52,10 @@ public class EmployeeTest2 {
 }
 ```
 
+## 변수의 유효 범위와 메모리
 
+- 변수의 유효 범위(scope)와 생성과 소멸(life cycle)은 각 변수의 종류마다 다름
+
+- 지역변수, 멤버 변수, 클래스 변수는 유효범위와 life cycle, 사용하는 메모리도 다름 
+
+![variable](./img/variable.png)
