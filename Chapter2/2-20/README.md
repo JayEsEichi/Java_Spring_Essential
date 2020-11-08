@@ -121,6 +121,8 @@ public class CharArrayTest {
 
 ## 향상된 for문 사용하기
 
+배열의 n개 요소를 0 부터 n-1까지 순차적으로 순회할 때 간단하게 사용할 수 있음
+
 ```
 for( 변수 : 배열) {
 
@@ -141,9 +143,9 @@ public class CharArrayTest {
 			alpahbets[i] = ch++;
 		}
 		
-		**for(char alpha : alpahbets) {
+		for(char alpha : alpahbets) {
 			System.out.println(alpha +","+ (int)alpha);
-		}**
+		}
 
 	}
 
