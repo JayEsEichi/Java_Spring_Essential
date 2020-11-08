@@ -72,7 +72,7 @@ public class EmployeeTest {
 		employeeKim.serialNum++;
 		
 		System.out.println(employeeLee.serialNum);
-		System.out.println(employeeLee.serialNum);
+		System.out.println(employeeKim.serialNum);
 		
 	}
 }
@@ -83,3 +83,37 @@ public class EmployeeTest {
 - static 변수는 인스턴스에서 공통으로 사용하는 영역임음 알 수 있음
 ![mem](./img/mem.png)
 
+
+## 회사원이 입사할 때마다 새로운 사번 부여하기
+
+Employee.java 생성자 구현
+```
+...
+
+	public Employee()
+	{
+		serialNum++;
+		employeeId = serialNum;
+	}
+
+...	
+
+```
+
+EmployeeTest.java
+```
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		Employee employeeLee = new Employee();
+		employeeLee.setEmployeeName("이순신");
+				
+		Employee employeeKim = new Employee();
+		employeeKim.setEmployeeName("김유신");
+				
+		System.out.println(employeeLee.getEmployeeName() + "," + employeeLee.getEmployeeId());
+		System.out.println(employeeKim.getEmployeeName() + "," + employeeKim.getEmployeeId());
+	}
+}
+```
+![employee2](./img/employee2.png)
