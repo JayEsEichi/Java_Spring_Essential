@@ -28,6 +28,14 @@ int arr2[] = new int[10];
 
  필요에 따라 초기값을 지정할 수 있음
 
+```
+int[] numbers = new int[] {10, 20, 30};  //개수 생략해야 함
+
+int[] numbers = {10, 20, 30};            // new int[]  생략 가능 
+
+int[] ids; 
+ids = new int[] {10, 20, 30};            // 선언후 배열을 생성하는 경우는 new int[] 생략할 수 없음
+```
 
 
 
