@@ -38,10 +38,61 @@ ids = new int[] {10, 20, 30};            // 선언후 배열을 생성하는 경
 ```
 
 
-
 ## 배열 사용하기
 
+- [] 인덱스 연산자 활용 - 배열 요소가 저장된 메모리의 위치를 연산하여 찾아 줌
 
+- 배열을 이용하여 합을 구하기
 
+```
+int[] arr = new int[10];
+int total = 0;
+		
+		
+for(int i=0, num=1; i< arr.length; i++, num++) {
+	arr[i] = num;
+}
+		
+for( int i =0; i<arr.length; i++) {
+	total += arr[i];	
+}
+System.out.println(total);
+```
 
+## 배열의 길이와 요소의 개수는 동일하지 않습니다.
 
+- 배열을 선언하면 개수만큼 메모리가 할당되지만, 실제 요소(데이타)가 없는 경우도 있음
+
+- 배열의 length 속성은 배열의 개수를 반환해주기 때문에 요소의 개수와는 다름
+
+- length를 활용하여 오류가 나는 경우 
+```
+double[] dArr = new double[5];
+		
+dArr[0] = 1.1;  
+dArr[1] = 2.1; 
+dArr[2] = 3.1; 
+		
+double mtotal = 1;
+for(int i = 0; i< dArr.length; i++) {
+	mtotal *= dArr[i];
+}
+		
+System.out.println(mtotal);
+```	
+
+- 요소의 개수에 대한 변수(count)를 따로 유지
+```
+double[] dArr = new double[5];
+int count = 0;
+dArr[0] = 1.1; count++; 
+dArr[1] = 2.1; count++;
+dArr[2] = 3.1; count++;
+		
+double mtotal = 1;
+for(int i = 0; i< count; i++) {
+	mtotal *= dArr[i];
+}
+		
+System.out.println(mtotal);
+```
