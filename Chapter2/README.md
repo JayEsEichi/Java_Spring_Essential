@@ -19,7 +19,7 @@
 16. [여러 인스턴스에서 공통으로 사용하는 변수를 선언하자 - static 변수](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-16/README.md)
 17. [static 메서드의 구현과 활용, 변수의 유효 범위](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-17/README.md)
 18. [static 응용 - 싱글톤 패턴 (singleton pattern)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-18/README.md)
-19. [복습해봅시다 - static과 싱클톤 패턴](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-19/README.md)
+19. [복습해봅시다 (static과 싱클톤 패턴)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-19/README.md)
 20. [자료를 한꺼번에 관리하는 방법 - 배열(array)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-20/README.md)
 21. [객체 배열 사용하기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-21/README.md)
 22. [2차원 배열 사용하기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-22/README.md)
