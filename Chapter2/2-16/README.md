@@ -123,3 +123,6 @@ public class EmployeeTest {
 ```
 System.out.println(Employee.serialNum);
 ```
+
+## 다음 강의
+[17. static 메서드의 구현과 활용, 변수의 유효 범위](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-17/README.md)
