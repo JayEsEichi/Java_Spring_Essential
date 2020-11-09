@@ -49,4 +49,5 @@ public class CompanyTest {
 
 ![singleton](./img/singleton.png)
 
+## 다음 강의
 [19. 복습해봅시다 (static과 싱클톤 패턴)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-19/README.md)
