@@ -32,6 +32,7 @@ public class TwoDimensionTest {
 ```
 ![length](./img/length.PNG)
 
-
+## 다음 강의 
+[23. 객체 배열을 구현한 클래스 ArrayList](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-23/README.md)
 
 
