@@ -67,3 +67,6 @@ public class EmployeeTest2 {
 - 멤버 변수가 너무 많으면 인스턴스 생성 시 쓸데없는 메모리가 할당됨
 
 - 상황에 적절하게 변수를 사용해야 함
+
+## 다음 강의
+[18. static 응용 - 싱글톤 패턴 (singleton pattern)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-18/README.md)
