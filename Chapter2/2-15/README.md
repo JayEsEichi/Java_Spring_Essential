@@ -10,3 +10,6 @@
 출력결과 <br>
 
 ![taxi](./img/taxi.PNG)
+
+## 다음 강의
+[16. 여러 인스턴스에서 공통으로 사용하는 변수를 선언하자 - static 변수](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-16/README.md)
