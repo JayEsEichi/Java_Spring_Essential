@@ -7,3 +7,14 @@
 - 이미 구현된 클래스보다 더 구체적인 기능을 가진 클래스를 구현해야 할때 기존 클래스를 상속함 
 
 ![inheritance](./img/inheritance.png)
+
+    상속하는 클래스 : 상위 클래스, parent class, base class, super class
+
+    상속받는 클래스 : 하위 클래스, child class, derived class, subclass
+
+- 상속의 문법
+
+class B extends A{
+
+    
+}
