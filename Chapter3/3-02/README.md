@@ -142,3 +142,5 @@ public class CustomerTest {
 }
 ```
 
+## 다음 강의
+[03. 상속에서 클래스 생성 과정과 형 변환](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-03/README.md)
