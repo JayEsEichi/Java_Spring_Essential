@@ -9,6 +9,15 @@
 
 - 재정의 하여 구현해야 함
 
+VIPCustomer.java
+```
+    @Override
+	public int calcPrice(int price) {
+		bonusPoint += price * bonusRatio;
+		return price - (int)(price * salesRatio);
+	}
+```
+
 
 
 ## @overriding 애노테이션 (annotation)
@@ -19,6 +28,13 @@
 
 ![annotation](./img/annotation.png)
 
+- @overriding 애노테이션은 재정의 된 메서드라는 의미로 선언부가 기존의 메서드와 다른 경우 에러가 남
+
+
+
+## 형 변환과 오버라이딩 메서드 호출
+
+   Customer vc = new VIPCustomer();
 
 
 
