@@ -14,3 +14,24 @@
 
 - 인스턴스가 생성되면 변수는 힙 메모리에 따로 생성되지만, 메서드 명령어 set은 처음 한번만 로드 됨
 
+```
+public class TestMethod {
+
+	int num;
+	
+	void aaa() {
+		System.out.println("aaa() 호출");
+	}
+	
+	public static void main(String[] args) {
+		
+		TestMethod a1 = new TestMethod();
+		a1.aaa();
+		
+		TestMethod a2 = new TestMethod();
+		a2.aaa();
+	}
+
+}
+```
+![mem](./img/mem.png)
