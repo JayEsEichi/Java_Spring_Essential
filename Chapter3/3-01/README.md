@@ -32,3 +32,6 @@ class B extends A{
  - 하위 클래스가 상위 클래스의 속성과 기능을 확장 (extends)한다는 의미
 
 ![inheritance2](./img/inheritance2.png)
+
+## 다음 강의
+[02. 상속을 활용한 멤버십 클래스 구현하기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-02/README.md)
