@@ -136,3 +136,6 @@ public class CustomerTest {
 	Primate pHumman = new Humman();
 
 	Mammal mHumman = new Humman();
+
+## 다음 강의
+[04. 메서드 재정의하기(overring)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-04/README.md)
