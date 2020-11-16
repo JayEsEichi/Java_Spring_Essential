@@ -46,3 +46,4 @@ public class TestMethod {
 ![calcprice](./img/calcprice.png)
 
 ## 다음 강의
+[06. 다형성과 다형성을 사용하는 이유](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-06/README.md)
