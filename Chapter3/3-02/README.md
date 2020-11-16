@@ -120,7 +120,7 @@ Customer.java
 ```
 
 
-## Customer와 VIPCustmer 테스트 하기
+## Customer와 VIPCustomer 테스트하기
 
 ```
 public class CustomerTest {
