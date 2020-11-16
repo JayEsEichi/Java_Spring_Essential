@@ -11,7 +11,7 @@
 
 VIPCustomer.java
 ```
-   @Override
+@Override
 public int calcPrice(int price) {
 	bonusPoint += price * bonusRatio;
 	return price - (int)(price * salesRatio);
