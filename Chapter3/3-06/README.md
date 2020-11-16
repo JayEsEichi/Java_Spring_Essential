@@ -180,3 +180,4 @@ public class CustomerTest {
 	}
 }
 ```
+![output](./img/output.png)
