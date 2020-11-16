@@ -25,4 +25,5 @@
 
 - 상속하지 않음
 
-
+## 다음 강의
+[08. 다운 캐스팅과 instanceof](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-08/README.md)
