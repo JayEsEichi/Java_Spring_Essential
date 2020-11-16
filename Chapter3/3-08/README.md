@@ -41,3 +41,5 @@ public void testDownCasting(ArrayList<Animal> list) {
 		}
 }
 ```
+## 다음 강의
+[09. 추상 클래스 구현하기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-09/README.md)
