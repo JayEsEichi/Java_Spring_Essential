@@ -80,3 +80,14 @@ public class VIPCustomer extends Customer{
 ![customer](./img/customer.png)
 
 ## protected 접근 제어자
+
+- 상위 클래스에 선언된 private 멤버 변수는 하위 클래스에서 접근 할 수 없음
+
+- 외부 클래스는 접근 할 수 없지만, 하위 클래스는 접근 할 수 있도록 protected 접근 제어자를 사용
+
+Customer.java
+```
+	protected int customerID;
+	protected String customerName;
+	protected String customerGrade;
+```
