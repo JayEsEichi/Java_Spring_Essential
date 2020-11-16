@@ -126,3 +126,13 @@ public class CustomerTest {
 
 
 ![upcasting1](./img/upcasting1.png)  					![upcasting2](./img/upcasting2.png)  
+
+## 클래스의 계층구조가 여러 단계인 경우
+
+![mammal](./img/mammal.png)
+
+- Human은 내부적으로 Promate와 mammal의 타입을 모두 내포하고 있음
+
+	Primate pHumman = new Humman();
+
+	Mammal mHumman = new Humman();
