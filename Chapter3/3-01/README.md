@@ -18,3 +18,16 @@ class B extends A{
 
     
 }
+    extends 키워드 뒤에는 단 하나의 클래스만 올 수 있음
+    
+    자바는 단일 상속(single inheritance)만을 지원함
+
+## 상속을 구현 하는 경우
+ 
+ - 상위 클래스는 하위 클래스 보다 더 일반적인 개념과 기능을 가짐
+
+ - 하위 클래스는 상위 클래스 보다 더 구체적인 개념과 기능을 가짐
+
+ - 하위 클래스가 상위 클래스의 속성과 기능을 확장 (extends)한다는 의미
+
+![inheritance2](./img/inheritance2.png)
