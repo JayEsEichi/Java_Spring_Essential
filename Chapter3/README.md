@@ -6,3 +6,4 @@
 04. [메서드 재정의 하기(overriding)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-04/README.md)
 05. [메서드 재정의와 가상 메서드 원리](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-05/README.md)
 06. [다형성과 다형성을 사용하는 이유](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-06/README.md)
+07. [상속은 언제 사용 할까?](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-07/README.md)
