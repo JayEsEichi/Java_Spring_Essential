@@ -42,3 +42,5 @@ public class TestMethod {
 
 - 재정의된 경우는 재정의 된 메서드의 주소를 가리킴
 ![virtual](./img/virtual.png)
+
+![calcprice](./img/calcprice.png)
