@@ -181,3 +181,6 @@ public class CustomerTest {
 }
 ```
 ![output](./img/output.png)
+
+## 다음 강의
+[07. 상속은 언제 사용 할까?](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-07/README.md)
