@@ -18,6 +18,7 @@ class B extends A{
 
     
 }
+  
     extends 키워드 뒤에는 단 하나의 클래스만 올 수 있음
     
     자바는 단일 상속(single inheritance)만을 지원함
