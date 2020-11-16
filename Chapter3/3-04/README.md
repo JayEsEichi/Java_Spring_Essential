@@ -68,4 +68,5 @@ public class CustomerTest {
 	}
 }
 ```
+## 다음 강의
 [05. 메서드 재정의와 가상 메서드 원리](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-05/README.md)
