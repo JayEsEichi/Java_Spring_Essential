@@ -90,4 +90,55 @@ Customer.java
 	protected int customerID;
 	protected String customerName;
 	protected String customerGrade;
+
+	//getter, setter 구현
+	...
+	public int getCustomerID() {
+		return customerID;
+	}
+
+	public void setCustomerID(int customerID) {
+		this.customerID = customerID;
+	}
+
+	public String getCustomerName() {
+		return customerName;
+	}
+
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+
+	public String getCustomerGrade() {
+		return customerGrade;
+	}
+
+	public void setCustomerGrade(String customerGrade) {
+		this.customerGrade = customerGrade;
+	}
+
 ```
+
+
+## Customer와 VIPCustmer 테스트 하기
+
+```
+public class CustomerTest {
+
+	public static void main(String[] args) {
+		Customer customerLee = new Customer();
+		customerLee.setCustomerName("이순신");
+		customerLee.setCustomerID(10010);
+		customerLee.bonusPoint = 1000;
+		System.out.println(customerLee.showCustomerInfo());
+			
+			
+		VIPCustomer customerKim = new VIPCustomer();
+		customerKim.setCustomerName("김유신");
+		customerKim.setCustomerID(10020);
+		customerKim.bonusPoint = 10000;
+		System.out.println(customerKim.showCustomerInfo());
+	}
+}
+```
+
