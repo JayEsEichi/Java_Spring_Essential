@@ -40,10 +40,10 @@ public class TestMethod {
 
 - 가상 메서드 테이블(vitual method table)에서 해당 메서드에 대한 address를 가지고 있음
 
-- 재정의된 경우는 재정의 된 메서드의 주소를 가리킴
-![virtual](./img/virtual.png)
+- 재정의된 경우는 재정의 된 메서드의 주소를 가리킴<br>
+![virtual](./img/virtual.png)<br>
 
-![calcprice](./img/calcprice.png)
+![calcprice](./img/calcprice.png)<br>
 
 ## 다음 강의
 [06. 다형성과 다형성을 사용하는 이유](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-06/README.md)
