@@ -89,7 +89,7 @@ public class CarTest {
 }
 ```
 
-![output](./img/output.png)
+![output](./img/out.png)
 
 
 ## final 키워드
