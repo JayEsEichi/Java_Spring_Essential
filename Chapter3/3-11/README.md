@@ -18,6 +18,12 @@ interface 인터페이스 이름{
 
 - 자바 8 부터 디폴트 메서드(default method)와 정적 메서드(static method) 기능의 제공으로 일부 구현 코드가 있음
 
+## 인터페이스 정의와 구현
+
+![calc](./img/calc.png)
+
+
+
 
 
 
