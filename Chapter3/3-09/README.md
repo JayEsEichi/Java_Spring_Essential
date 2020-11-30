@@ -9,7 +9,7 @@
 - 메서드 정의(definition) : 메서드 구현(implementation)과 동일한 의미 구현부(body) 를 가짐 ({ })
 
 - 예) int add(int x, int y); // 선언 <br>
-&nbsp;&nbsp;int add(int x, int y){ } // 구현부가 있음, 추상 메서드 아님
+&nbsp;&nbsp;&nbsp;int add(int x, int y){ } // 구현부가 있음, 추상 메서드 아님
 
 - abstract 예약어를 사용
 
