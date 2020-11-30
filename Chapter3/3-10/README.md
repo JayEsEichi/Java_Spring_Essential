@@ -12,9 +12,84 @@
 
 &nbsp;&nbsp;다르게 구현되어야 하는 부분은 추상 메서드로 선언하여 하위 클래스에서 구현 하도록 함
 
-## 템플릿 메서드 예제 -1 
+## 템플릿 메서드 예제 
 
 ![car](./img/car.png)
+
+Car.java
+```
+public abstract class Car {
+	
+	public abstract void drive();
+	public abstract void stop();
+	
+	public void startCar() {
+		System.out.println("시동을 켭니다.");
+	}
+	
+	public void turnOff() {
+		System.out.println("시동을 끕니다.");
+	}
+			
+	final public void run() {
+		startCar();
+		drive();
+		stop();
+		turnOff();
+	}
+}
+```
+
+ManualCar.java
+```
+public class ManualCar extends Car{
+
+	@Override
+	public void drive() {
+		System.out.println("사람이 운전합니다.");
+		System.out.println("사람이 핸들을 조작합니다.");		
+	}
+
+	@Override
+	public void stop() {
+		System.out.println("브레이크를 밟아서 정지합니다.");		
+	}
+
+}
+```
+
+AICar.java
+```
+public class AICar extends Car{
+
+	@Override
+	public void drive() {
+		System.out.println("자율 주행합니다.");
+		System.out.println("자동차가 스스로 방향을 바꿉니다.");
+	}
+
+	@Override
+	public void stop() {
+		System.out.println("스스로 멈춥니다.");		
+	}
+}
+```
+
+CarTest.java
+```
+public class CarTest {
+
+	public static void main(String[] args) {
+		Car aiCar = new AICar();
+		aiCar.run();
+		System.out.println("=================");
+		Car manualCar = new ManualCar();
+		manualCar.run();
+	}
+}
+```
+
+![output](./img/output.png)
 
 
 ## final 키워드
