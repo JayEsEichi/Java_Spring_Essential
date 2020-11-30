@@ -10,7 +10,7 @@
 08. [다운 캐스팅과 instanceof](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-08/README.md)
 09. [추상 클래스 구현하기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-09/README.md)
 10. [추상 클래스의 응용 - 템플릿 메서드 패턴](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-10/README.md)
-11. [인터페이스](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-11/README.md)
+11. [인터페이스(interface)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-11/README.md)
 12. [인터페이스 구현한 클래스 활용](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-12/README.md)
 13. [인터페이스와 다형성](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-13/README.md)
 14. [인터페이스의 여러가지 요소](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-14/README.md)
