@@ -109,3 +109,6 @@ Calc calc = new CompleteCalc();
 - 형 변환되는 경우 인터페이스에 선언된 메서드만을 사용가능함 
 
 ![type](./img/type.png)
+
+## 다음 강의
+[12. 인터페이스는 왜 쓰는가?](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-12/README.md)
