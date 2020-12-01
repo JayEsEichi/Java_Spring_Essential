@@ -105,7 +105,7 @@ public class UserInfoOracleDao implements UserInfoDao{
 }
 ```
 
-UserInfoClient.java(UserInfoDao 인터페이스를 활용하는 클라이언트 프로그램)
+UserInfoClient.java (UserInfoDao 인터페이스를 활용하는 클라이언트 프로그램)
 ```
 public class UserInfoClient {
 
