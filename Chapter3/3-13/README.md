@@ -11,6 +11,11 @@
 ![dao](./img/dao.png)
 
 ## 인터페이스를 활용한 dao 구현하기
+
+- DB에 회원 정보를 넣는 dao(data access object)를 여러 DB 제품이 지원될 수 있게 구현함
+
+- 환경파일(db.properties) 에서 database의 종류에 대한 정보를 읽고 그 정보에 맞게 dao 인스턴스를 생성하여 실행될 수 있게 함
+
 ![userinfo](./img/userinfo.png)
 
 
