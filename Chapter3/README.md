@@ -14,6 +14,5 @@
 12. [인터페이스는 왜 쓰는가?](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-12/README.md)
 13. [인터페이스를 활용한 다형성 구현](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-13/README.md)
 14. [인터페이스의 여러가지 요소](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-14/README.md)
-15. [인터페이스는 왜 사용하는가?](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-15/README.md)
-16. [복습해보세요](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-16/README.md)
+15. [복습해보세요](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-16/README.md)
 
