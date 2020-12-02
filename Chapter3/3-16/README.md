@@ -16,4 +16,4 @@ Player가 play() 중에 레벨에 있는 go(int count) 라는 메서드를 호�
 
 ![player](./img/player.png)
 
-![out](./img/out.png)
+![out](./img/out.PNG)
