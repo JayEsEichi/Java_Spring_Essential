@@ -7,6 +7,8 @@
 - 디폴트 메서드가 중복 되는 경우는 구현 하는 클래스에서 재정의 하여야 함
 
 ![multi](./img/multi.png)
+
+
 Sell.java
 ```
 public interface Sell {
