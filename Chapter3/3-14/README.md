@@ -18,16 +18,24 @@ int ERROR = -999999999;
 - 구현을 가지는 메서드, 인터페이스를 구현하는 클래스들에서 공통으로 사용할 수 있는 기본 메서드 
 
 - default 키워드 사용
-
-- 구현 하는 클래스에서 재정의 할 수 있음
-
-- 인터페이스를 구현한 클래스의 인스턴스가 생성 되어야 사용 가능함
 ```
 default void description() {
 	System.out.println("정수 계산기를 구현합니다.");
 	myMethod();
 }
-```	
+```
+- 구현 하는 클래스에서 재정의 할 수 있음
+```
+@Override
+public void description() {
+	System.out.println("CompleteCalc에서 재정의한 default 메서드");
+	//super.description();
+}
+```
+
+- 인터페이스를 구현한 클래스의 인스턴스가 생성 되어야 사용 가능함
+
+
 
 ## 정적 메서드 (자바 8이후)
 
