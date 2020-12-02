@@ -237,9 +237,11 @@ public class MyClassTest {
 
 - 책이 순서대로 대여가 되는 도서관 구현
 
-- 책을 보관하는 자료 구조가 shelf에 구현됨
+- 책을 보관하는 자료 구조가 Shelf에 구현됨 (ArrayList)
 
 - Queue 인터페이스를 구현함
+
+- Shelf 클래스를 상속 받고 Queue를 구현한다.
 
 Shelf.java
 ```
@@ -317,5 +319,7 @@ public class BookShelfTest {
 ![bookshelf](./img/bookshelf.png)
 
 
-- Shelf 클래스를 상속 받고 quque를 구현한다.
+## 다음 강의
+
+[16. 복습해보세요](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-16/README.md)
 
