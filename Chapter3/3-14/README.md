@@ -5,8 +5,8 @@
 
 - 모든 변수는 상수로 변환 됨 public static final 
 ```
-    double PI = 3.14;
-	int ERROR = -999999999;
+double PI = 3.14;
+int ERROR = -999999999;
 	
 ```
 ## 추상 메서드
@@ -23,25 +23,25 @@
 
 - 인터페이스를 구현한 클래스의 인스턴스가 생성 되어야 사용 가능함
 ```
-    default void description() {
-		System.out.println("정수 계산기를 구현합니다.");
-		myMethod();
-	}
+default void description() {
+	System.out.println("정수 계산기를 구현합니다.");
+	myMethod();
+}
 ```	
 
 ## 정적 메서드 (자바 8이후)
 
 - 인스턴스 생성과 상관 없이 인터페이스 타입으로 사용할 수 있는 메서드
 ```
-    static int total(int[] arr) {
-		int total = 0;
+static int total(int[] arr) {
+	int total = 0;
 		
-		for(int i: arr) {
-			total += i;
-		}
-		mystaticMethod();
-		return total;
+	for(int i: arr) {
+		total += i;
 	}
+	mystaticMethod();
+	return total;
+}
 ```
 
 ## private 메서드 (자바 9이후)
@@ -53,11 +53,11 @@
 - default 메서드나 static 메서드에서 사용함 
 
 ```
-    private void myMethod() {
-		System.out.println("private method");
-	}
+private void myMethod() {
+	System.out.println("private method");
+}
 	
-	private static void mystaticMethod() {
-		System.out.println("private static method");
-	}
+private static void mystaticMethod() {
+	System.out.println("private static method");
+}
 ```
