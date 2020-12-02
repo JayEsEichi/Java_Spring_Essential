@@ -235,3 +235,87 @@ public class MyClassTest {
 
 ![book](./img/book.png)
 
+- 책이 순서대로 대여가 되는 도서관 구현
+
+- 책을 보관하는 자료 구조가 shelf에 구현됨
+
+- Queue 인터페이스를 구현함
+
+Shelf.java
+```
+public class Shelf {
+
+	 protected ArrayList<String> shelf;
+	 
+	 public Shelf() {
+		 shelf = new ArrayList<String>();
+	 }
+	 
+	 public ArrayList<String> getShelf(){
+		 return shelf;
+	 }
+	 
+	 public int getCount() {
+		 return shelf.size();
+	 }
+	 
+}
+```
+
+Queue.java
+```
+public interface Queue {
+
+	void enQueue(String title);
+	String deQueue();
+	
+	int getSize();
+}
+```
+
+BookShelf.java
+```
+public class BookShelf extends Shelf implements Queue{
+
+	@Override
+	public void enQueue(String title) {
+		shelf.add(title);
+	}
+
+	@Override
+	public String deQueue() {
+		return shelf.remove(0);
+	}
+
+	@Override
+	public int getSize() {
+		return getCount();
+	}
+
+}
+```
+
+BookShelfTest.java
+```
+public class BookShelfTest {
+
+	public static void main(String[] args) {
+
+		Queue bookQueue = new BookShelf();
+		bookQueue.enQueue("태백산맥1");
+		bookQueue.enQueue("태백산맥2");
+		bookQueue.enQueue("태백산맥3");
+		
+		System.out.println(bookQueue.deQueue());
+		System.out.println(bookQueue.deQueue());
+		System.out.println(bookQueue.deQueue());
+	}
+
+}
+```
+
+![bookshelf](./img/bookshelf.png)
+
+
+- Shelf 클래스를 상속 받고 quque를 구현한다.
+
