@@ -56,6 +56,9 @@ static int total(int[] arr) {
 
 - 인터페이스를 구현한 클래스에서 사용하거나 재정의 할 수 없음
 
+## 다음 강의
+[15. 여러 인터페이스 구현하기, 인터페이스의 상속](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter3/3-15/README.md)
+
 - 인터페이스 내부에서만 사용하기 위해 구현하는 메서드 
 
 - default 메서드나 static 메서드에서 사용함 
