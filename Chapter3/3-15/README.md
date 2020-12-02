@@ -160,6 +160,79 @@ public class CustomerTest {
 
 ![inheritance](./img/inheritance.png)
 
+X.java
+```
+public interface X {
+
+	void x();
+}
+```
+
+Y.java
+```
+public interface Y {
+
+	void y();
+}
+```
+
+MyInterface.java
+```
+public interface MyInterface extends X, Y{
+
+	void myMethod();
+}
+```
+
+MyClass.java
+```
+public class MyClass implements MyInterface{
+
+	@Override
+	public void x() {
+		System.out.println("x()");
+	}
+
+	@Override
+	public void y() {
+		System.out.println("y()");		
+	}
+
+	@Override
+	public void myMethod() {
+		System.out.println("myMethod()");		
+	}
+}
+```
+
+MyClassTest.java
+```
+public class MyClassTest {
+
+	public static void main(String[] args) {
+
+		MyClass mClass = new MyClass();
+		
+		X xClass = mClass;
+		xClass.x();
+		
+		
+		Y yClass = mClass;
+		yClass.y();
+		
+		MyClass iClass = mClass;
+		iClass.x();
+		iClass.y();
+		iClass.myMethod();
+	}
+
+}
+```
+
+
+
+
+
 ## 클래스 상속과 인터페이스 구현 함께 쓰기
 
 
