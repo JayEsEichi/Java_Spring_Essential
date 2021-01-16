@@ -24,7 +24,43 @@
   
   class Student => class Student extends Object
 
-## Object 메서드 살펴보기
+## toString() 메서드
+
+- 객체의 정보를 String으로 바꾸어서 사용할 때 쓰임
+
+- String이나 Integer 클래스는 이미 재정의 되어 있음
+
+- toString()메서드 재정의 예
+
+```
+class Book{
+	
+	private String title;
+	private String author;
+	
+	public Book(String title, String author) {
+		this.title = title;
+		this.author = author;
+	}
+	
+	public String toString() {
+		return title + "," + author;
+	}
+	
+}
+
+public class BookTest {
+
+	public static void main(String[] args) {
+
+		Book book = new Book("데미안", "헤르만 헤세");
+		
+		System.out.println(book);
+	}
+}
+```
+
+
 
 
 
