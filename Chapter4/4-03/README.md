@@ -1,4 +1,4 @@
-# 03. String, StringBuilder, StringBuffer 클래스
+# 03. String, StringBuilder, StringBuffer 클래스, text block
 
 ## String 클래스
 
