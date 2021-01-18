@@ -116,7 +116,7 @@ public class Student implements Cloneable{
 
 EqualTest.java
 ```
-Student Lee3 = (Student)Lee.clone();
+    Student Lee3 = (Student)Lee.clone();
 	System.out.println(System.identityHashCode(Lee));
 	System.out.println(System.identityHashCode(Lee3));
 		
