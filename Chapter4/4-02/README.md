@@ -101,12 +101,12 @@ public class EqualTest {
 - 해당 클래스의 clone() 메서드의 사용을 허용한다는 의미로 cloneable 인터페이스를 명시해 줌
 
 ```
-class circle implements Cloneable{
+public class Student implements Cloneable{
 
-    Point point;
-    int radius;
+    .......
 }
 ```
+
 
 
 
