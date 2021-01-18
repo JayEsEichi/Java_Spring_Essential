@@ -9,7 +9,6 @@
 - 인스턴스가 다르더라도 논리적으로 동일한 경우 true를 반환하도록 재정의 할 수 있음
 
   (같은 학번, 같은 사번, 같은 아이디의 회원...)
-
   
 ## hashCode() 메서드
 
@@ -30,7 +29,66 @@
 
 - 논리적으로 동일함을 위해 equals() 메서드를 재정의 하였다면 hashCode()메서드도 재정의 하여 동일한 hashCode 값이 반환되도록 한다
 
+Student.java
+```
+public class Student {
 
+	private int studentId;
+	private String studentName;
+
+	public Student(int studentId, String studentName)
+	{
+		this.studentId = studentId;
+		this.studentName = studentName;
+	}
+	
+	public boolean equals(Object obj) {
+		if( obj instanceof Student) {
+			Student std = (Student)obj;
+			if(this.studentId == std.studentId )
+				return true;
+			else return false;
+		}
+		return false;
+		
+	}
+	
+	@Override
+	public int hashCode() {
+		return studentId;
+	}
+}
+```
+
+EqualTest.java
+```
+public class EqualTest {
+
+	public static void main(String[] args) {
+		Student Lee = new Student(100, "Lee");
+		Student Lee2 = Lee;
+		Student Shun = new Student(100, "Lee");
+		
+		System.out.println(Lee == Shun);
+		System.out.println(Lee.equals(Shun));
+		
+		System.out.println(Lee.hashCode());
+		System.out.println(Shun.hashCode());
+		
+		
+		Integer i1 = new Integer(100);
+		Integer i2 = new Integer(100);
+		
+		System.out.println(i1.equals(i2));
+		System.out.println(i1.hashCode());
+		System.out.println(i2.hashCode());
+		
+		System.out.println(System.identityHashCode(i1));
+		System.out.println(System.identityHashCode(i2));
+
+	}
+}
+```
 
 
 
