@@ -100,12 +100,28 @@ public class EqualTest {
 
 - 해당 클래스의 clone() 메서드의 사용을 허용한다는 의미로 cloneable 인터페이스를 명시해 줌
 
+Student.java
 ```
 public class Student implements Cloneable{
 
     .......
+
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		// TODO Auto-generated method stub
+		return super.clone();
+	}
 }
 ```
+
+EqualTest.java
+```
+Student Lee3 = (Student)Lee.clone();
+	System.out.println(System.identityHashCode(Lee));
+	System.out.println(System.identityHashCode(Lee3));
+		
+```		
+
 
 
 
