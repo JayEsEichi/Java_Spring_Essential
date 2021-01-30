@@ -39,7 +39,7 @@
 
 이진 트리 (binary tree) </br>
 
- 부모노드에 자식노드가 두 개 이하인 트리
+ 부모노드에 자식노드가 두 개 이하인 트리 </br>
   
 이진 검색 트리 (binary search tree) </br>
 ![tree](./img/binary1.png)
