@@ -19,6 +19,12 @@
 
   연결 리스트 (LinkedList) : 선형으로 자료를 관리, 자료가 추가될 때마다 메모리를 할당 받고, 자료는 링크로 연결됨. 자료의 물리적 위치와 논리적 위치가 다를 수 있음
 
+리스트에 자료 추가하기
+[!/img/listadd.png]
+
+리스트에서 자료 삭제하기
+[!/img/listdelete.png]
+
   스택 (Stack) : 가장 나중에 입력 된 자료가 가장 먼저 출력되는 자료 구조 (Last In First OUt)
 
   큐 (Queue) :  가장 먼저 입력 된 자료가 가장 먼저 출력되는 자료 구조 (First In First Out)
