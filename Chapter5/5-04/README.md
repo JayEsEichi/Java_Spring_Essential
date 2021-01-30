@@ -14,7 +14,7 @@
 
 - jdk 클래스 : Stack
 
-## Stack을 배열을 활용하여 구현하기
+## 배열을 활용하여 Stack 구현하기
 
 MyArrayStack.java
 ```
