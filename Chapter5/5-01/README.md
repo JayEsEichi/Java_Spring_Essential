@@ -27,16 +27,28 @@
 리스트에서 자료 삭제하기 <br>
 ![listdelete](./img/listdelete.png)
 
-  스택 (Stack) : 가장 나중에 입력 된 자료가 가장 먼저 출력되는 자료 구조 (Last In First OUt)
+  스택 (Stack) : 가장 나중에 입력 된 자료가 가장 먼저 출력되는 자료 구조 (Last In First OUt) </br>
 
 ![stack](./img/stack.png)
 
-  큐 (Queue) :  가장 먼저 입력 된 자료가 가장 먼저 출력되는 자료 구조 (First In First Out)
+  큐 (Queue) :  가장 먼저 입력 된 자료가 가장 먼저 출력되는 자료 구조 (First In First Out) </br>
 ![queue](./img/queue.png)
 
 
-- 트리 (Tree) : 부모 노드와 자식 노드간의 연결로 이루어진 자료 구조 ( 이진 트리, 힙 )
+- 트리 (Tree) : 부모 노드와 자식 노드간의 연결로 이루어진 자료 구조 </br>
+
+이진 트리 (binary tree) </br>
+
+ 부모노드에 자식노드가 두 개 이하인 트리
   
+이진 검색 트리 (binary search tree) </br>
+![tree](./img/binary1.png)
+
+[23, 10, 28, 15, 7, 22, 56] 순으로 자료를 넣을때 BST </br>
+
+![tree](./img/binary1.png)
+
+
 - 그래프 (Graph) : 노드와 노드 사이에 간선으로 연결된 자료 구조 
 
 - 해시 (Hash) : 자료를 검색하기 위한 자료 구조
