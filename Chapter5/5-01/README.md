@@ -27,7 +27,11 @@
 
   스택 (Stack) : 가장 나중에 입력 된 자료가 가장 먼저 출력되는 자료 구조 (Last In First OUt)
 
+![stack](./img/stack.png)
+
   큐 (Queue) :  가장 먼저 입력 된 자료가 가장 먼저 출력되는 자료 구조 (First In First Out)
+![queue](./img/queue.png)
+
 
 - 트리 (Tree) : 부모 노드와 자식 노드간의 연결로 이루어진 자료 구조 ( 이진 트리, 힙 )
   
