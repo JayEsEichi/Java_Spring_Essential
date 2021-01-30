@@ -37,10 +37,10 @@
 
 - **트리 (Tree)** : 부모 노드와 자식 노드간의 연결로 이루어진 자료 구조 <br>
 
-이진 트리 (binary tree) : 부모노드에 자식노드가 두 개 이하인 트리 <br>
+**이진 트리 (binary tree)** : 부모노드에 자식노드가 두 개 이하인 트리 <br>
 ![tree](./img/binary1.png)
 
-이진 검색 트리 (binary search tree) 
+**이진 검색 트리** (binary search tree) 
  
  ![tree3](./img/binary3.png)
  
