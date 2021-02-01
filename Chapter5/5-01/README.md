@@ -62,11 +62,17 @@
 
     간선(edge) : 이 객체들을 연결 관계를 나타냄. 링크(link)
 
-                간선은 방향성이 있는 경우와 없는 경우가 있음
+    간선은 방향성이 있는 경우와 없는 경우가 있음
 
+    그래프를 구현하는 방법 : 인접 행렬(adjacency matrix), 인접 리스트(adjacency list)
 
-
+    그래프를 탐색하는 방법 : BFS(bread first search), DFS(depth first search)
     
+  그래프의 예) <br>
+
+  ![graph](./img/graph.png)
+
+
 
 - **해싱 (Hashing)** : 자료를 검색하기 위한 자료 구조
 
