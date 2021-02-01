@@ -90,6 +90,15 @@
 
     jdk 클래스 : HashMap, Properties
 
+  해시테이블 
+
+  ![hash1](./img/hash.png)
+
+
+  체이닝
+  ![hash1](./img/hash2.png)
+
+
 
   
 
