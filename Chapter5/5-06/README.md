@@ -1,6 +1,6 @@
 # 06. 무엇이든 담을 수 있는 제네릭(Generic) 프로그래밍
 
-## 제네릭 타입 선언
+## 제네릭 클래스 정의
 
 - 클래스에서 사용하는 변수의 자료형이 여러개 일수 있고, 그 기능(메서드)은 동일한 경우 클래스의 자료형을 특정하지 않고
 
@@ -70,6 +70,7 @@ Powder p = (Powder)printer.getMaterial();
 ```
 
 - 제네릭 클래스 정의
+
 GenericPrinter.java
 ```
 public class GenericPrinter<T> {
@@ -88,6 +89,8 @@ public class GenericPrinter<T> {
 	}
 }
 ```
+- 자료형 매개변수 T(type parameter) : 이 클래스를 사용하는 시점에 실제 사용할 자료형을 지정
 
 
+## 제네릭 클래스 사용하기
 
