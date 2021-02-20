@@ -8,3 +8,10 @@
 
 - 상속을 받지 않는 경우 T는 Object로 변환되어 Object 클래스가 기본으로 제공하는 메서드만 사용가능
 
+## T extends 를 사용한 프로그래밍
+
+- GenericPrinter<T> 에 material 변수의 자료형을 상속받아 구현
+
+- T에 무작위 클래스가 들어갈 수 없게 Material 클래스를 상속받은 클래스로 한정
+
+![material](./img/material.png)
