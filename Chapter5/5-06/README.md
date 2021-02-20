@@ -66,7 +66,7 @@ ThreeDPrinter printer = new ThreeDPrinter();
 Powder powder = new Powder();
 printer.setMaterial(powder);
 
-**Powder p = (Powder)printer.getMaterial();**
+Powder p = (Powder)printer.getMaterial();
 ```
 
 - 제네릭 클래스 정의
