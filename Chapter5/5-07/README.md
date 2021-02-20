@@ -14,4 +14,4 @@
 
 - T에 무작위 클래스가 들어갈 수 없게 Material 클래스를 상속받은 클래스로 한정
 
-![material](./img/material.png)
+![material](./img/material.PNG)
