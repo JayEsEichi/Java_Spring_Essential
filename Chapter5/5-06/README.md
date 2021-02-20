@@ -119,13 +119,13 @@ public class Plastic {
 GenericPrinter.java
 ```
 public class GenericPrinter<T> {
-	private T material;
+	private T material;   //T 자료형으로 선언한 변수
 	
 	public void setMaterial(T material) {
 		this.material = material;
 	}
 	
-	public T getMaterial() {
+	public T getMaterial() {   //T 자료형을 반환하는 제네릭 메서드
 		return material;
 	}
 	
