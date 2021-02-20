@@ -12,19 +12,33 @@
 
 - 제네릭 타입을 사용하지 않는 경우의 예
 
+재료가 Powder인 경우
 ```
 public class ThreeDPrinter1{
-
-
-
+	private Powder material;
+	
+	public void setMaterial(Powder material) {
+		this.material = material;
+	}
+	
+	public Powder getMaterial() {
+		return material;
+	}
 }
 ```
 
-
+재료가 Plastic인 경우
 ```
 public class ThreeDPrinter2{
-
-
+	private Plastic material;
+	
+	public void setMaterial(Plastic material) {
+		this.material = material;
+	}
+	
+	public Plastic getMaterial() {
+		return material;
+	}
 
 }
 ```
@@ -33,15 +47,26 @@ public class ThreeDPrinter2{
 ```
 public class ThreeDPrinter{
 
-
-
+	private Object material;
+	
+	public void setMaterial(Object material) {
+		this.material = material;
+	}
+	
+	public Object getMaterial() {
+		return material;
+	}
 }
 ```
 
 - Object를 사용하는 경우는 형 변환을 하여야 함
 ```
+ThreeDPrinter printer = new ThreeDPrinter();
 
+Powder powder = new Powder();
+printer.setMaterial(powder);
 
+**Powder p = (Powder)printer.getMaterial();**
 ```
 
 - 제네릭 클래스 정의
