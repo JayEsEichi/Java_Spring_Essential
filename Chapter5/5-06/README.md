@@ -154,7 +154,7 @@ public class GeneriPrinterTest {
 }
 ```
 
-## 다이아몬든 연산자
+## 다이아몬드 연산자 <>
 
 - <T>에서 <>를 다이아몬드 연산자라 함
 
