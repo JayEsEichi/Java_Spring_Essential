@@ -13,12 +13,40 @@
 ![collection](./img/collection.png)
 
 
-## Collection 인터페이스의
+## Collection 인터페이스
 
 - 하나의 객체를 관리하기 위한 메서드가 선언된 인터페이스의
 
 - 하위에 List와 Set 인터페이스가 있음
 
-- List 인터페이스 : 순서가 있는 자료를 관리하는데 필요한 메서드가 선언됨. 중복을 허용함 (ArrayList, Vector, LinkedList, Stack, Queue 등...)
+## List 인터페이스
 
-- Set 인터페이스 : 순서와 관계없이 중복을 허용하지 않고 유일한 값을 관리하는데 필요한 메서드가 선언됨 (HashSet, TreeSet등...)
+- 객체를 순서에 따라 저장하고 관리하는데 필요한 메서드가 선언된 인터페이스
+
+- 자료구조 리스트 (배열, 연결리스트)의 구현을 위한 인터페이스
+
+- 중복을 허용함 
+
+- ArrayList, Vector, LinkedList, Stack, Queue 등...
+
+
+## Set 인터페이스
+
+- 순서와 관계없이 중복을 허용하지 않고 유일한 값을 관리하는데 필요한 메서드가 선언됨 
+
+- 아이디, 주민번호, 사번등을 관리하는데 유용
+
+- 저장된 순서와 출력되는 순서는 다를 수 있음
+
+- HashSet, TreeSet등...
+
+
+## Map 인터페이스
+
+- 쌍(pair)로 이루어진 객체를 관리하는데 사용하는 메서드들이 선언된 인터페이스
+
+- 객체는 key-value의 쌍으로 이루어짐
+
+- key는 중복을 허용하지 않음
+
+- HashTable, HashMap, Properties, TreeMap 등이 Map 인터페이스를 구현 함
