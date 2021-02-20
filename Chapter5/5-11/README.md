@@ -10,6 +10,10 @@
 
 ## Iterator 사용하기
 
+- boolean hasNext() : 이후에 요소가 더 있는지를 체크하는 메서드, 요소가 있다면 true를 반환
+
+- E next() : 다음에 있는 요소를 반환
+
 MemberArrayList.java 의 removeMember() 메서드를 Iterator를 활용하여 구현
 ```
 public boolean removeMember(int memberId){  // 멤버 아이디를 매개변수로, 삭제 여부를 반환
