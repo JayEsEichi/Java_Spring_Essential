@@ -9,9 +9,9 @@
 07. [<T extends 클래스> 사용하기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter5/5-07/README.md)
 08. [제네릭 메서드 활용하기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter5/5-08/README.md)
 09. [자바에서 제공되는 자료구조 구현 클래스들 - 컬레션 프레임워크](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter5/5-09/README.md)
-10. [순차적으로 자료를 관리하는 List 인터페이스를 구현한 클래스들과 그 활용](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter5/5-10/README.md)
+10. [순차적으로 자료를 관리하는 List 인터페이스를 구현한 클래스와 그 활용](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter5/5-10/README.md)
 11. [Collection 요소를 순회하는 Iterator](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter5/5-11/README.md)
-12. [중복되지 않게 자료를 관리하는 Set 인터페이스를 구현한 클래스들과 그 활용](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter5/5-12/README.md)
+12. [중복되지 않게 자료를 관리하는 Set 인터페이스를 구현한 클래스와 그 활용](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter5/5-12/README.md)
 13. [정렬을 위해 Comparable과 Comparator 인터페이스 구현하기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter5/5-13/README.md)
-14. [쌍으로 자료를 관리하는 Map 인터페이스를 구현한 클래스들과 그 활용](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter5/5-14/README.md)
+14. [쌍(pair)으로 자료를 관리하는 Map 인터페이스를 구현한 클래스와 그 활용](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter5/5-14/README.md)
 
