@@ -85,15 +85,13 @@ public class MemberTreeSetTest {
 
 		MemberTreeSet memberTreeSet = new MemberTreeSet();
 		
-		
-		Member memberPark = new Member(1003, "김유신");
+		Member memberKim = new Member(1003, "김유신");
 		Member memberLee = new Member(1001, "이순신");
-		Member memberSon = new Member(1002, "강감찬");
+		Member memberKang = new Member(1002, "강감찬");
 		
-		
+		memberTreeSet.addMember(memberKim);
 		memberTreeSet.addMember(memberLee);
-		memberTreeSet.addMember(memberSon);
-		memberTreeSet.addMember(memberPark);
+		memberTreeSet.addMember(memberKang);
 		memberTreeSet.showAllMember();
 		
 	}
