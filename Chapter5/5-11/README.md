@@ -1,4 +1,4 @@
-# 10. Collection 요소를 순회하는 Iterator
+# 11. Collection 요소를 순회하는 Iterator
 
 ## 요소의 순회란?
 
