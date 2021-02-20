@@ -83,3 +83,10 @@ public class MemberHashMapTest {
 	}
 }
 ```
+
+## TreeMap 클래스
+
+- Map 인터페이스를 구현한 클래스이고 key에 대한 정렬을 구현할 수 있음
+
+- key가 되는 클래스에 Comparable이나 Comparator인터페이스를 구현함으로써 key-value 쌍의 자료를 key값 기준으로 정렬하여 관리 할 수 있음
+
