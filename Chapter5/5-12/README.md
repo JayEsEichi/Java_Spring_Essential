@@ -74,14 +74,14 @@ public class MemberHashSetTest {
 
 		MemberHashSet memberHashSet = new MemberHashSet();
 		
-		Member memberLee = new Member(1001, "김유신");
-		Member memberSon = new Member(1002, "이순신");
-		Member memberPark = new Member(1003, "강감찬");
+		Member memberLee = new Member(1001, "이순신");
+		Member memberKim = new Member(1002, "김유신");
+		Member memberKang = new Member(1003, "강감찬");
 		
 		
 		memberHashSet.addMember(memberLee);
-		memberHashSet.addMember(memberSon);
-		memberHashSet.addMember(memberPark);
+		memberHashSet.addMember(memberKim);
+		memberHashSet.addMember(memberKang);
 		memberHashSet.showAllMember();
 		
 		Member memberHong = new Member(1003, "홍길동");  //1003 아이디 중복 
