@@ -154,5 +154,14 @@ public class GeneriPrinterTest {
 }
 ```
 
+## 다이아몬든 연산자
+
+- <T>에서 <>를 다이아몬드 연산자라 함
+
+- ArrayList<String> list = new ArrayList<>();  //다이아몬든 연산자 내부에서 자료형은 생략가능 함
+
+- 제네릭에서 자료형 추론(자바 10부터)
+
+	ArrayList<String> list = new ArrayList<String>()  => var list = new ArrayList<String>();
 
 
