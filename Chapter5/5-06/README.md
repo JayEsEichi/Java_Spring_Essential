@@ -89,14 +89,70 @@ public class GenericPrinter<T> {
 	}
 }
 ```
-- 자료형 매개변수 T(type parameter) : 이 클래스를 사용하는 시점에 실제 사용할 자료형을 지정 static 변수는 사용할 수 없음
+- 자료형 매개변수 T(type parameter) : 이 클래스를 사용하는 시점에 실제 사용할 자료형을 지정, static 변수는 사용할 수 없음
 
 - GenericPrinter<T> : 제네릭 자료형
 
 - E : element, K: key, V : value 등 여러 알파벳을 의미에 따라 사용 가능
 
-
 ## 제네릭 클래스 사용하기
+
+Powder.java
+```
+public class Powder {
+	
+	public String toString() {
+		return "재료는 Powder 입니다";
+	}
+}
+```
+
+Plastic.java
+```
+public class Plastic {
+
+	public String toString() {
+		return "재료는 Plastic 입니다";
+	}
+}
+```
+GenericPrinter.java
+```
+public class GenericPrinter<T> {
+	private T material;
+	
+	public void setMaterial(T material) {
+		this.material = material;
+	}
+	
+	public T getMaterial() {
+		return material;
+	}
+	
+	public String toString(){
+		return material.toString();
+	}
+}
+```
+
+GenericPrinterTest.java
+```
+public class GeneriPrinterTest {
+
+	public static void main(String[] args) {
+
+		GenericPrinter<Powder> powderPrinter = new GenericPrinter<Powder>();
+		powderPrinter.setMaterial(new Powder());
+		System.out.println(powderPrinter);
+		
+		GenericPrinter<Plastic> plasticPrinter = new GenericPrinter<Plastic>();
+		plasticPrinter.setMaterial(new Plastic());
+		System.out.println(plasticPrinter);
+		
+	}
+
+}
+```
 
 
 
