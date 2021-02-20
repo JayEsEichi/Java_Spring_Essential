@@ -11,3 +11,14 @@
 - 여러 구현 클래스와 인터페이스의 활용에 대한 이해가 필요함
 
 ![collection](./img/collection.png)
+
+
+## Collection 인터페이스의
+
+- 하나의 객체를 관리하기 위한 메서드가 선언된 인터페이스의
+
+- 하위에 List와 Set 인터페이스가 있음
+
+- List 인터페이스 : 순서가 있는 자료를 관리하는데 필요한 메서드가 선언됨. 중복을 허용함 (ArrayList, Vector, LinkedList, Stack, Queue 등...)
+
+- Set 인터페이스 : 순서와 관계없이 중복을 허용하지 않고 유일한 값을 관리하는데 필요한 메서드가 선언됨 (HashSet, TreeSet등...)
