@@ -10,13 +10,13 @@ Good School 학교가 있습니다. 이 학교에는 5명의 학생들이 수업
 
 이번 학기 각 학생의 성적은 다음과 같습니다.
 
-| header | header | header | header | header | header |
+| 이름 | 학번 | 전공 | 필수 과목 | 수학 점수 | 국어 점수 |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| cell | cell |cell |cell |cell |cell |
-| cell | cell |cell |cell |cell |cell |
-| cell | cell |cell |cell |cell |cell |
-| cell | cell |cell |cell |cell |cell |
-| cell | cell |cell |cell |cell |cell |
+| 강감찬 | 211213 | 국어국문학과 | 국어 | 95 | 56 |
+| 김유신 | 212330 | 컴퓨터공학과 | 수학 | 95 | 98 |
+| 신사임당 | 201518 | 국어국문학과 | 국어 | 100 | 88 |
+| 이순신 | 202360 | 국어국문학과 | 국어 | 89 | 95 |
+| 홍길동 | 201290 | 컴퓨터공학과 | 수학 | 83 | 56 |
 
 
 
