@@ -53,11 +53,9 @@
 ![mathgrade](./img/mathgrade.png)
 
 
-
-
-
 ## 클래스 정의 하고 관계도 그리기
 
+![student](./img/student.png)
 
 
 
