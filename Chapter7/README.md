@@ -24,6 +24,13 @@
 
 다음과 같습니다
 
+| header | header | header | header | header | header | header |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| cell | cell | cell | cell | cell | cell | cell |
+| cell | cell | cell | cell | cell | cell | cell |
+| cell | cell | cell | cell | cell | cell | cell |
+| cell | cell | cell | cell | cell | cell | cell |
+
 
 ## 클래스 정의 하고 관계도 그리기
 
