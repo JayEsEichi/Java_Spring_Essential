@@ -234,6 +234,9 @@ public class Define {
 
 점수에 따른 학점의 정책은 여러가지가 있을 수 있습니다. 인터페이스를 먼저 선언하고, 각 정책 클래스가 이를 구현하도록 합니다
 
+
+![grade](./img/grade.png)
+
 GradeEvaluation.java
 ```
 public interface GradeEvaluation {
@@ -241,6 +244,58 @@ public interface GradeEvaluation {
 }
 ```
 
+ 일반 과목 학점에 대한 클래스 구현
+
+ BasicEvaluation.java
+```
+public  class BasicEvaluation implements GradeEvaluation{
+
+	@Override
+	public String getGrade(int point) {
+		String grade;
+		
+		if(point >=90 && point <=100)
+			grade = "A";
+		else if(point >=80 && point <=89)
+			grade = "B";
+		else if(point >=70 && point <=79)
+			grade = "C";
+		else if(point >=55 && point <=69)
+			grade = "D";
+		else
+			grade = "F";
+		return grade;
+	}
+}
+```
+
+
+
+ 필수 과목 학점에 대한 클래스 구현
+
+MajorEvaluation.java
+```
+public class MajorEvaluation implements GradeEvaluation{
+
+	@Override
+	public String getGrade(int point) {
+		String grade;
+		if(point >=95 && point <=100)
+			grade = "S";
+		else if(point >=90 && point <=94)
+			grade = new String("A");
+		else if(point >=80 && point <=89)
+			grade = "B";
+		else if(point >=70 && point <=79)
+			grade = "C";
+		else if(point >=60 && point <=69)
+			grade = "D";
+		else
+			grade = "F";
+		return grade;
+	}
+}
+```
 
 
 
