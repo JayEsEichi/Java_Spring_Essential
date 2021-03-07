@@ -230,6 +230,17 @@ public class Define {
 
 ## 학점 평가 정책 설계하고 구현하기
 
+- 인터페이스 정의하기
+
+점수에 따른 학점의 정책은 여러가지가 있을 수 있습니다. 인터페이스를 먼저 선언하고, 각 정책 클래스가 이를 구현하도록 합니다
+
+GradeEvaluation.java
+```
+public interface GradeEvaluation {
+	public String getGrade(int point);
+}
+```
+
 
 
 
