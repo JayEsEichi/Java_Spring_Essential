@@ -57,6 +57,174 @@
 
 ![student](./img/student.png)
 
+Student.java
+
+```
+public class Student {
+	
+	private int studentId;    		//학번
+	private String studentName;		//이름
+	private Subject majorSubject;	//중점 과목
+	
+	//학생의 성적 리스트 
+	//addSubjectSocre() 메서드가 호출되면 리스트에 추가 됨
+	private ArrayList<Score> scoreList = new ArrayList<Score>(); 
+	
+	public Student( int studentId, String studentName, Subject majorSubject){
+		this.studentId = studentId;
+		this.studentName = studentName;
+		this.majorSubject = majorSubject;
+	}
+	
+	public void addSubjectScore(Score score){
+		scoreList.add(score);
+	}
+
+	public int getStudentId() {
+		return studentId;
+	}
+
+	public void setStudentId(int studentId) {
+		this.studentId = studentId;
+	}
+
+	public String getStudentName() {
+		return studentName;
+	}
+
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+
+	public Subject getMajorSubject() {
+		return majorSubject;
+	}
+
+	public void setMajorSubject(Subject majorSubject) {
+		this.majorSubject = majorSubject;
+	}
+
+	public ArrayList<Score> getScoreList(){
+		return scoreList;
+	}
+	
+	public void setScoreList(ArrayList<Score> scoreList) {
+		this.scoreList = scoreList;
+	}
+}
+```
+
+Subject.java
+```
+public class Subject {
+	private String subjectName;  //과목 이름
+	private int subjectId;      // 과목 고유번호
+	private int gradeType;      // 과목 평가 방법 기본은 A,B 방식
+	
+	//수강 신청한 학생 리스트
+	//register() 메서드를 호출하면 리스트에 추가 됨
+	private ArrayList<Student> studentList = new ArrayList<Student>();
+	
+	public Subject(String subjectName, int subjectId){
+		this.subjectName = subjectName;
+		this.subjectId = subjectId;
+		this.gradeType = Define.AB_TYPE;   //기본적으로 A, B 타입
+	}
+
+	public String getSubjectName() {
+		return subjectName;
+	}
+
+	public void setSubjectName(String subjectName) {
+		this.subjectName = subjectName;
+	}
+
+	public int getSubjectId() {
+		return subjectId;
+	}
+
+	public void setSubjectId(int subjectId) {
+		this.subjectId = subjectId;
+	}
+
+	public ArrayList<Student> getStudentList() {
+		return studentList;
+	}
+
+	public void setStudentList(ArrayList<Student> studentList) {
+		this.studentList = studentList;
+	}
+
+	public int getGradeType() {
+		return gradeType;
+	}
+
+	public void setGradeType(int gradeType) {
+		this.gradeType = gradeType;
+	}
+
+	public void register(Student student){  //수강신청
+		studentList.add(student);
+	}
+}
+```
+
+Score.java
+```
+public class Score {
+	int studentId;   //학번
+	Subject subject; //과목
+	int point;      //점수
+	
+	public Score( int studentId, Subject subject, int point){
+		this.studentId = studentId;
+		this.subject = subject;
+		this.point = point;
+	}
+
+	public int getStudentId() {
+		return studentId;
+	}
+
+	public void setStudentId(int studentId) {
+		this.studentId = studentId;
+	}
+
+	public Subject getSubject() {
+		return subject;
+	}
+
+	public void setSubject(Subject subject) {
+		this.subject = subject;
+	}
+
+	public int getPoint() {
+		return point;
+	}
+
+	public void setPoint(int point) {
+		this.point = point;
+	}
+
+	public String toString(){
+		return "학번:" + studentId + "," + subject.getSubjectName() + ":" + point;
+	}
+}
+```
+
+Define.java
+```
+public class Define {
+
+	public static final int KOREAN = 1001;  //국어
+	public static final int MATH = 2001;    //수학
+		
+	public static final int AB_TYPE = 0;    // A, B, C
+	public static final int SAB_TYPE = 1;   // S, A, B, c
+	public static final int PF_TYPE = 2;   // P, F
+	
+}
+```
 
 
 
