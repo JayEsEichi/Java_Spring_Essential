@@ -24,12 +24,17 @@
 
 다음과 같습니다
 
-| header | header | header | header | header | header | header |
-| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| cell | cell | cell | cell | cell | cell | cell |
-| cell | cell | cell | cell | cell | cell | cell |
-| cell | cell | cell | cell | cell | cell | cell |
-| cell | cell | cell | cell | cell | cell | cell |
+- 필수 과목 학점 기준
+
+| S | A | B | C | D | F |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| 95~100점 | 90~94점 | 80~89점 | 70~79점 | 60~69점 | 60점 미만 |
+
+- 일반 과목 학점 기준
+
+| A | B | C | D | F |
+| ------ | ------ | ------ | ------ | ------ |
+| 90~100점 | 80~89점 | 70~79점 | 60~69점 | 60점 미만 |
 
 
 ## 클래스 정의 하고 관계도 그리기
