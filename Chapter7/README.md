@@ -8,6 +8,15 @@ Good School 학교가 있습니다. 이 학교에는 5명의 학생들이 수업
 
 각 학생별로 한 개의 전공을 선택합니다. 
 
+이번 학기 각 학생의 성적은 다음과 같습니다.
+
+| header | header | header | header | header | header |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| cell | cell |cell |cell |cell |cell |
+| cell | cell |cell |cell |cell |cell |
+| cell | cell |cell |cell |cell |cell |
+| cell | cell |cell |cell |cell |cell |
+| cell | cell |cell |cell |cell |cell |
 
 
 
