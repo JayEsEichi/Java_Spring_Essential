@@ -297,6 +297,90 @@ public class MajorEvaluation implements GradeEvaluation{
 }
 ```
 
+## 리포트 클래스 (Builder Pattern을 활용)
+
+- 학점 평가에 대한 클래스들을 인스턴스화 하고 이에 대한 배열을 만들어 각 과목에 점수를 산정할 때 필수 과목인지 일반 과목인지에 따라 각 정책 클래스가 학점을 평가할 수 있도록 구현 합니다.
+
+- 전반적인 리포트의 생성은 header부분, 본문 부분, tail 부분으로 구성합니다.
+
+- StringBuffer 클래스를 이용하여 모든 리포트의 내용을 만들고 난후 toString()을 호출 하여 String 클래스로 반환합니다.
+
+GenerateGradeReport.java
+```
+public class GenerateGradeReport {
+
+	School school = School.getInstance();
+	public static final String TITLE = " 수강생 학점 \t\t\n";
+	public static final String HEADER = " 이름  |  학번  |중점과목| 점수   \n";
+	public static final String LINE = "-------------------------------------\n";
+	private StringBuffer buffer = new StringBuffer();  
+	
+	public String getReport(){
+		ArrayList<Subject> subjectList = school.getSubjectList();  // 모든 과목에 대한 학점 산출
+		for( Subject subject : subjectList) {
+			makeHeader(subject);
+			makeBody(subject);
+			makeFooter();
+		}
+		return buffer.toString();  // String 으로 반환
+	}
+	
+	public void makeHeader(Subject subject){
+		buffer.append(GenerateGradeReport.LINE);
+		buffer.append("\t" + subject.getSubjectName());
+		buffer.append(GenerateGradeReport.TITLE );
+		buffer.append(GenerateGradeReport.HEADER );
+		buffer.append(GenerateGradeReport.LINE);
+	} 
+	
+	public void makeBody(Subject subject){
+		
+		ArrayList<Student> studentList = subject.getStudentList();  // 각 과목의 학생들
+		
+		for(int i=0; i<studentList.size(); i++){
+			Student student = studentList.get(i);
+			buffer.append(student.getStudentName());
+			buffer.append(" | ");
+			buffer.append(student.getStudentId());
+			buffer.append(" | ");
+			buffer.append(student.getMajorSubject().getSubjectName() + "\t");
+			buffer.append(" | ");
+			
+			getScoreGrade(student, subject.getSubjectId());  //학생별 해당과목 학점 계산
+			buffer.append("\n");
+			buffer.append(LINE);
+		}
+	}
+	
+	public void getScoreGrade(Student student, int subjectId){
+		
+		ArrayList<Score> scoreList = student.getScoreList();
+		int majorId = student.getMajorSubject().getSubjectId();
+		
+		GradeEvaluation[] gradeEvaluation = {new BasicEvaluation(), new MajorEvaluation()};  //학점 평가 클래스들
+		
+		for(int i=0; i<scoreList.size(); i++){  // 학생이 가진 점수들 
+			
+			Score score = scoreList.get(i);
+			if(score.getSubject().getSubjectId() == subjectId) {  // 현재 학점을 산출할 과목 
+				String grade;
+				if(score.getSubject().getSubjectId() == majorId)  // 중점 과목인 경우
+					grade = gradeEvaluation[Define.SAB_TYPE].getGrade(score.getPoint());  //중점 과목 학점 평가 방법
+				else
+					grade = gradeEvaluation[Define.AB_TYPE].getGrade(score.getPoint()); // 중점 과목이 아닌 경우
+				buffer.append(score.getPoint());
+				buffer.append(":");
+				buffer.append(grade);
+				buffer.append(" | ");
+			}
+		}
+	}
+	
+	public void makeFooter(){
+		buffer.append("\n");
+	}
+}
+```
 
 
 ## 프로그램 테스트 하기
