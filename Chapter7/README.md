@@ -514,5 +514,185 @@ public class TestMain {
 }
 ```
 
-
 ## 프로그램 업그레이드 하기
+
+- 과목과 학점 정책이 추가되는 경우
+
+방송댄스 과목이 새로 개설되고 이 과목의 학점 평가 정책은 pass/fail 로 정해졌다고 합니다. 70점 이상인 경우는 pass, 미만인 경우는 fail입니다.
+
+전체 5명 학생중 3명만이 이 과목을 수강신청 했습니다. 추가된 요구사항이 잘 반영되도록 구현하세요
+
+- 상수값 추가하기
+Define.java
+```
+public class Define {
+
+	public static final int KOREAN = 1001;  //국어
+	public static final int MATH = 2001;    //수학
+	public static final int DANCE = 3001;   //방송댄스
+		
+	public static final int AB_TYPE = 0;    // A, B, C
+	public static final int SAB_TYPE = 1;   // S, A, B, c
+	public static final int PF_TYPE = 2;   // P, F
+	
+}
+```
+
+- GradeEvaluation 인터페이스를 구현한 Pass/Fail BasicEvaluation
+PassFailEvaluation
+```
+public class PassFailEvaluation implements GradeEvaluation{
+
+	@Override
+	public String getGrade(int point) {
+		if (point >= 70) 
+			return "P";
+		else
+		    return "F";
+	}
+}
+```
+
+- 리포트 클래스 추가할 부분
+
+학점 평가 정책 인스턴스 배열에 새로 추가한 정책에 대한 인스턴스를 추가합니다. 
+
+또한 Subject에 대한 학점 정책이 PF_TYPE인 경우만 해당 클래스가 적용되도록 합니다.
+
+GenerateGradeReport
+```
+...
+
+public void getScoreGrade(Student student, Subject subject){
+		
+		ArrayList<Score> scoreList = student.getScoreList();
+		int majorId = student.getMajorSubject().getSubjectId();
+		
+		GradeEvaluation[] gradeEvaluation = {new BasicEvaluation(), new MajorEvaluation(), new PassFailEvaluation()};  //학점 평가 클래스들
+		
+		for(int i=0; i<scoreList.size(); i++){  // 학생이 가진 점수들 
+			
+			Score score = scoreList.get(i);
+			if(score.getSubject().getSubjectId() == subject.getSubjectId()) {  // 현재 학점을 산출할 과목 
+				String grade;
+		
+				if(subject.getGradeType() == Define.PF_TYPE) {
+					grade = gradeEvaluation[Define.PF_TYPE].getGrade(score.getPoint());
+				}
+				else {
+				    if(score.getSubject().getSubjectId() == majorId)  // 중점 과목인 경우
+					    grade = gradeEvaluation[Define.SAB_TYPE].getGrade(score.getPoint());//중점 과목 학점 평가 방법  
+				    else
+				    	grade = gradeEvaluation[Define.AB_TYPE].getGrade(score.getPoint()); // 중점 과목이 아닌 경우
+				}
+				buffer.append(score.getPoint());
+				buffer.append(":");
+				buffer.append(grade);
+				buffer.append(" | ");
+			}
+		}
+	}
+
+```
+- 테스트 클래스에 문제의 셋을 추가하여 학점을 출력해 봅니다. 
+
+TestMain.java
+```
+public class TestMain {
+
+	School goodSchool = School.getInstance();
+	Subject korean;
+	Subject math;
+	Subject dance;
+	
+	GenerateGradeReport gradeReport = new GenerateGradeReport();
+	
+	public static void main(String[] args) {
+		
+		TestMain test = new TestMain();
+		
+		test.creatSubject();
+		test.createStudent();
+		
+		String report = test.gradeReport.getReport(); //성적 결과 생성
+		System.out.println(report); // 출력
+		
+	}
+	
+	//테스트 과목 생성
+	public void creatSubject(){
+		
+		korean = new Subject("국어", Define.KOREAN);
+		math = new Subject("수학", Define.MATH);
+		dance = new Subject("방송댄스", Define.DANCE);
+		
+		dance.setGradeType(Define.PF_TYPE);
+		
+		goodSchool.addSubject(korean);
+		goodSchool.addSubject(math);
+		goodSchool.addSubject(dance);
+		
+	}
+	
+	//테스트 학생 생성
+	public void createStudent(){
+		
+		Student student1 = new Student(211213, "강감찬", korean  );
+		Student student2 = new Student(212330, "김유신", math  );
+		Student student3 = new Student(201518, "신사임당", korean  );
+		Student student4 = new Student(202360, "이순신", korean  );
+		Student student5 = new Student(201290, "홍길동", math );
+		
+		goodSchool.addStudent(student1);
+		goodSchool.addStudent(student2);
+		goodSchool.addStudent(student3);
+		goodSchool.addStudent(student4);
+		goodSchool.addStudent(student5);
+
+		korean.register(student1);
+		korean.register(student2);
+		korean.register(student3);
+		korean.register(student4);
+		korean.register(student5);
+		
+		math.register(student1);
+		math.register(student2);
+		math.register(student3);
+		math.register(student4);
+		math.register(student5);
+		
+		//세 명만 등록
+		dance.register(student1);
+		dance.register(student2);
+		dance.register(student3);
+		
+		addScoreForStudent(student1, korean, 95); 
+		addScoreForStudent(student1, math, 56);	
+		
+		addScoreForStudent(student2, korean, 95); 
+		addScoreForStudent(student2, math, 95);	
+		
+		addScoreForStudent(student3, korean, 100); 
+		addScoreForStudent(student3, math, 88);	
+		
+		addScoreForStudent(student4, korean, 89); 
+		addScoreForStudent(student4, math, 95);	
+		
+		addScoreForStudent(student5, korean, 85); 
+		addScoreForStudent(student5, math, 56);	
+		
+		addScoreForStudent(student1, dance, 95);	
+		addScoreForStudent(student2, dance, 85); 
+		addScoreForStudent(student3, dance, 55);	
+		
+	}
+
+	//과목별 성적 입력
+	public void addScoreForStudent(Student student, Subject subject, int point){
+		
+		Score score = new Score(student.getStudentId(), subject, point);
+		student.addSubjectScore(score);
+		
+	}
+}
+```
