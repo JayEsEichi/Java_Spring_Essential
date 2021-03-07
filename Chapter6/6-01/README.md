@@ -11,4 +11,5 @@
 인스턴스 내부 클래스, 정적(static) 내부 클래스, 지역(local) 내부 클래스, 익명(anonymous) 내부 클래스
 
 - 변수와 비교한 내부 클래스
+
 ![inner](./img/inner.png)
