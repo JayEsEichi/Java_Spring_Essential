@@ -41,3 +41,10 @@ public class TestStringConcat {
     }
 }
 ```
+
+- 람다식으로 구현하기
+
+```
+StringConcat concat2 = (s, v)->System.out.println(s + "," + v ); //System.out.println(i);
+concat2.makeString(s1, s2);
+```
