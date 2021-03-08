@@ -63,6 +63,6 @@ str-> return str.length();  //오류
 - 실행문이 한 문장의 반환문인 경우엔 return과 중괄호를 모두 생략
 
 ```
-(x, y) -> x+y
-str -> str.length
+(x, y) -> x+y;
+str -> str.length;
 ```
