@@ -76,9 +76,43 @@ concat3.makeString(s1, s2);
 	
 	특정 자료형으로 변수를 선언 한 후 값을 대입함   int a = 10;
 
-	매개 변수로 전달하여 사용함 				   int add(int x, int y)
+	매개 변수로 전달하여 사용함 		int add(int x, int y)
 
-	메서드의 반환 값으로 반환 하기					return num;
+	메서드의 반환 값으로 반환 하기		return num;
 
 
+- 인터페이스형 변수에 람다식 대입하기
 
+  함수형 인터페이스
+```
+interface PrintString{
+	
+	void showString(String str);
+}
+```
+
+```
+PrintString lambdaStr = s->System.out.println(s);  //람다식을 변수에 대입
+lambdaStr.showString("hello lambda_1");
+```
+
+- 매개변수로 전달하는 람다식
+```
+showMyString(lambdaStr); 
+
+public static void showMyString(PrintString p) {
+	p.showString("hello lambda_2");
+}
+```
+
+- 반환 값으로 쓰이는 람다식
+
+```
+public static PrintString returnString() {         //반환 값으로 사용
+		return s->System.out.println(s + "world");
+}
+
+
+PrintString reStr = returnString();  
+reStr.showString("hello ");
+```
