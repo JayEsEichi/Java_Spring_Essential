@@ -1,4 +1,4 @@
-#02. 람다식(Lambda expression)
+# 02. 람다식(Lambda expression)
 
 ## 함수형 프로그래밍과 람다식
 
