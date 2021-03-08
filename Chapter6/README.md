@@ -1,7 +1,7 @@
 # 6. 자바의 다양한 기능들
 
 01. [여러 내부 클래스의 정의와 유형](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-01/README.md)
-02. [함수형 프로그래밍과 람다식(Lambda expression)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-02/README.md)
+02. [람다식(Lambda expression)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-02/README.md)
 03. [함수형 인터페이스와 람다식 구현하여 사용하기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-03/README.md)
 04. [객체지향 프로그래밍 vs. 람다식 구현](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-04/README.md)
 05. [스트림이란?](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-05/README.md)
