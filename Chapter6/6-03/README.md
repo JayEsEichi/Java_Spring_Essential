@@ -11,3 +11,17 @@
     함수형 인터페이스라는 의미, 내부에 여러 개의 메서드를 선언하면 에러남 
 
     ![error](./img/error.png)
+
+- 람다식 구현과 호출
+
+```
+public class TestMyNumber {
+
+	public static void main(String[] args) {
+		MyNumber max = (x, y)->(x>= y)? x:y; // 람다식을 인터페이스 자료형 max 변수에 대입
+
+		System.out.println(max.getMax(10, 20));// 인터페이스 자료형 변수로 함수 호출
+			
+	}
+}
+```
