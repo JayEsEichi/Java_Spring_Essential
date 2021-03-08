@@ -18,9 +18,16 @@
 
 ## 인스턴스 내부 클래스
 
-- 내부적으로 사용할 클래스를 선언 
+- 내부적으로 사용할 클래스를 선언 (private으로 선언하는 것을 권장)
 
 - 외부 클래스가 생성된 후 생성됨 ( 정적 내부 클래스와 다름 )
+
+- private이 아닌 내부 클래스는 다른 외부 클래스에서 생성할 수 있음
+
+```
+OutClass outClass = new OutClass();
+OutClass.InClass inClass = outClass.new InClass();
+```
 
 - 인스턴스 내부 클래스 예
 
