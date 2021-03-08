@@ -8,6 +8,6 @@
 
 - @FunctionalInterface 애노테이션(annotation)
 
-함수형 인터페이스라는 의미, 내부에 여러 개의 메서드를 선언하면 에러남 
+    함수형 인터페이스라는 의미, 내부에 여러 개의 메서드를 선언하면 에러남 
 
-![error](./img/error.png)
+    ![error](./img/error.png)
