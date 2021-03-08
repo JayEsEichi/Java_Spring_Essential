@@ -16,7 +16,8 @@ public interface StringConcat {
 
 - 객체 지향 프로그래밍으로 구현하기
 
-    인터페이스를 구현한 클래스 만들기
+ 인터페이스를 구현한 클래스 만들기
+
 ```
 public class StringConCatImpl implements StringConcat{
 
@@ -26,7 +27,7 @@ public class StringConCatImpl implements StringConcat{
 	}
 }
 ```
-    클래스를 생성하고 메서드 호출하기
+ 클래스를 생성하고 메서드 호출하기
 
 ```
 public class TestStringConcat {
