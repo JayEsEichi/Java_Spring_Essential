@@ -80,7 +80,7 @@ public class InnerTest {
 }
 ```
 
-
+![inner](./img/inner.png)
 
 ## 정적 내부 클래스
 
