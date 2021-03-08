@@ -39,6 +39,30 @@ int add(int x, int y){
 - 매개 변수가 하나인 경우 자료형과 괄호 생략가능
 
 ```
-    str->{System.out.println(str);}
+str->{System.out.println(str);}
 ```
 
+- 매개변수가 두 개이상인 경우 괄호를 생략할 수 없음
+
+```
+x, y -> {System.out.println(x+y);}  //오류
+```
+
+- 실행문이 한 문장인 경우 중괄호 생략 가능
+
+```
+str-> System.out.println(str);
+```
+
+- 실행문이 한 문장이라도 return문(반환문)은 중괄호를 생략할 수 없음
+
+```
+str-> return str.length();  //오류
+```
+
+- 실행문이 한 문장의 반환문인 경우엔 return과 중괄호를 모두 생략
+
+```
+(x, y) -> x+y
+str -> str.length
+```
