@@ -4,7 +4,7 @@
 02. [람다식(Lambda expression)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-02/README.md)
 03. [함수형 인터페이스와 람다식 구현하여 사용하기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-03/README.md)
 04. [객체지향 프로그래밍 vs. 람다식 구현](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-04/README.md)
-05. [스트림이란?](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-05/README.md)
+05. [스트림(Stream)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-05/README.md)
 06. [프로그래머가 만드는 reduce()연산](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-06/README.md)
 07. [스트림을 활용하겨 패키지 여행 비용 계산하기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-07/README.md)
 08. [자바에서 제공되는 예외처리 클래스들](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-08/README.md)
