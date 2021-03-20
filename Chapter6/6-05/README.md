@@ -64,13 +64,13 @@ public class IntArrayTest {
 ```
   sList.stream().filter(s->s.length() >= 5).forEach(s->System.out.println(s));
 ```
-  filter()는 중간 연산이고, forEach()는 최종 연산임
+   filter()는 중간 연산이고, forEach()는 최종 연산임
 
 - 고객 클래스 배열에서 고객 이름만 가져오기
 ```
   customerList.stream().map(c->c.getName()).forEach(s->System.out.println(s));
 ```
-  map()은 중간 연산이고, forEach()는 최종 연산임
+   map()은 중간 연산이고, forEach()는 최종 연산임
 
 - 중간 연산과 최종 연산에 대한 구현은 람다식을 활용함
 
