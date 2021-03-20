@@ -10,7 +10,7 @@
 08. [자바에서 제공되는 예외처리 클래스들](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-08/README.md)
 19. [예외 처리하기와 미루기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-09/README.md)
 10. [사용자 정의 예외 클래스와 그 활용](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-10/README.md)
-11. [오류의 로그를 남기기 - java.util.logging.logger 활용](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-11/README.md)
+11. [오류의 로그를 남기기 - java.util.logging.Logger 활용](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-11/README.md)
 12. [자바의 입출력을 위한 I/O 스트림](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-12/README.md)
 13. [표준 입출력 스트림](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-13/README.md)
 14. [바이트 단위 입출력 스트림](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-14/README.md)
