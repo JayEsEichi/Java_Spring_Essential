@@ -6,7 +6,7 @@
 04. [객체지향 프로그래밍 vs. 람다식 구현](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-04/README.md)
 05. [스트림(Stream)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-05/README.md)
 06. [연산 수행에 대한 구현을 할 수 있는 reduce()연산](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-06/README.md)
-07. [스트림을 활용하겨 패키지 여행 비용 계산하기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-07/README.md)
+07. [스트림을 활용하여 패키지 여행 비용 계산하기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-07/README.md)
 08. [자바에서 제공되는 예외처리 클래스들](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-08/README.md)
 19. [예외 처리하기와 미루기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-09/README.md)
 10. [사용자 정의 예외 클래스와 그 활용](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-10/README.md)
