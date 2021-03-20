@@ -53,7 +53,7 @@ public class IntArrayTest {
 
 ## 중간 연산과 최종 연산
 
-- 중간 연산의 예 - filter(), map() 등
+- 중간 연산의 예 - filter(), map(), sorted() 등
 
   조건에 맞는 요소를 추출(filter)하거나 요소를 변환 함(map)
 
@@ -88,6 +88,29 @@ public class IntArrayTest {
 
 
 
-- ArrayList 객체에 스트림 생성하고 사용하기
+## ArrayList 객체에 스트림 생성하고 사용하기
 
+- ArrayList에 문자열 자료(이름)을 넣고 이에 대한 여러 연산을 수행해보기
 
+```
+public class ArrayListStreamTest {
+
+	public static void main(String[] args) {
+		List<String> sList = new ArrayList<String>();
+		sList.add("Tomas");
+		sList.add("Edward");
+		sList.add("Jack");
+		
+		Stream<String> stream = sList.stream();
+		stream.forEach(s->System.out.print(s + " "));
+		System.out.println();
+		
+		sList.stream().sorted().forEach(s->System.out.print(s+ " "));
+		sList.stream().map(s->s.length()).forEach(n->System.out.println(n));
+		sList.stream().filter(s->s.length() >= 5).forEach(s->System.out.println(s));
+		
+	}
+
+}
+```
+- 새로운 연산을 수행하기 위해서는 기존의 스트림은 재사용할 수 없고 stream()메서드를 호출하여 스트림을 다시 생성해야 함
