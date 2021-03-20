@@ -8,6 +8,8 @@
   
   일관성 있는 연산으로 자료의 처리를 쉽고 간단하게 함
 
+  자료 처리에 대한 추상화가 구현되었다고 함
+
 - 한번 생성하고 사용한 스트림은 재사용 할 수 없음
 
   자료에 대한 스트림을 생성하여 연산을 수행하면 스트림은 소모됨
@@ -27,3 +29,65 @@
   따라서 중간 연산에 대한 결과를 연산 중에 알수 없음
 
   이를 '지연 연산'이라 함
+
+## 스트림 생성하고 사용하기
+
+- 정수 배열에 스트림 생성하여 연산을 수행 하는 예
+
+```
+public class IntArrayTest {
+
+	public static void main(String[] args) {
+
+		int[] arr = {1,2,3,4,5};
+		
+		int sumVal = Arrays.stream(arr).sum();
+		long count = Arrays.stream(arr).count();
+		
+		System.out.println(sumVal);
+		System.out.println(count);
+	}
+
+}
+```
+
+## 중간 연산과 최종 연산
+
+- 중간 연산의 예 - filter(), map() 등
+
+  조건에 맞는 요소를 추출(filter)하거나 요소를 변환 함(map)
+
+- 최종 연산이 호출될 때 중간 연산이 수행되고 결과가 생성 됨
+
+- 문자열 리스트에서 문자열의 길이가 5 이상인 요소만 출력하기
+
+```
+  sList.stream().filter(s->s.length() >= 5).forEach(s->System.out.println(s));
+```
+  filter()는 중간 연산이고, forEach()는 최종 연산임
+
+- 고객 클래스 배열에서 고객 이름만 가져오기
+```
+  customerList.stream().map(c->c.getName()).forEach(s->System.out.println(s));
+```
+  map()은 중간 연산이고, forEach()는 최종 연산임
+
+- 중간 연산과 최종 연산에 대한 구현은 람다식을 활용함
+
+- 최종 연산의 예 - forEach(), count(), sum() 등
+  
+  스트림이 관리하는 자료를 하나씩 소모해가며 연산이 수행 됨
+
+  최종 연산 후에 스트림은 더 이상 다른 연산을 적용할 수 없음
+
+  forEach() : 요소를 하나씩 꺼내 옴
+
+  count() : 요소의 개수
+
+  sum() : 요소들의 합
+
+
+
+- ArrayList 객체에 스트림 생성하고 사용하기
+
+
