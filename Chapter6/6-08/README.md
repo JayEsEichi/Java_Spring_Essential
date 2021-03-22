@@ -64,7 +64,7 @@ System.out.println(dog);
 Class.forName(“sis.studentinfo.Student”); //클래스가 로드되지 않은 경우
 ```
 
-- InterruptedException :Thread.sleep(), join(). Object의 wait()로 non-runnable 상태인 thread를 Runnable하게 만들 수 있도록 사용할 수 있다.
+- InterruptedException :Thread.sleep(), join(). Object의 wait()로 non-runnable 상태인 thread를 Runnable하게 만들 수 있도록 사용할 수 있음
 
 
 
