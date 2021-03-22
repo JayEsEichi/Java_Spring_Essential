@@ -74,4 +74,29 @@ public class FileExceptionHandling {
 
 ![auto](./img/auto.png)
 
+- AutoCloseable인터페이스 구현 실습
 
+```
+public class AutoCloseObj implements AutoCloseable{
+
+	@Override
+	public void close() throws Exception {
+		System.out.println("리소스가 close() 되었습니다");
+	}
+}
+```
+
+```
+public class AutoCloseTest {
+	
+	public static void main(String[] args) {
+		
+		AutoCloseObj obj = new AutoCloseObj();
+    	try (obj){
+			throw new Exception();
+		}catch(Exception e) {
+			System.out.println("예외 부분 입니다");
+		}
+	}
+}
+```
