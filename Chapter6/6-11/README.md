@@ -42,5 +42,163 @@
 
 - 구현하기
 
-    
+    Logger 인스턴스를 생성한다.
 
+    로그를 남기기 위한 FileHandler를 생성한다.
+
+    FileHandler의 level을 지정하고
+
+    Logger에 생성된 addHandler()메서드로 FileHandler를 추가한다.
+
+MyLogger.java
+```
+public class MyLogger {
+	
+	Logger logger = Logger.getLogger("mylogger");
+	private static MyLogger instance = new MyLogger();
+	
+	public static final String errorLog = "log.txt";
+	public static final String warningLog = "warning.txt";
+	public static final String fineLog = "fine.txt";
+	
+	private FileHandler logFile = null;
+	private FileHandler warningFile = null;
+	private FileHandler fineFile = null;
+
+	private MyLogger(){
+	
+			try {
+				logFile = new FileHandler(errorLog, true);
+				warningFile = new FileHandler(warningLog, true);
+				fineFile = new FileHandler(fineLog, true);
+				
+			} catch (SecurityException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+	
+			logFile.setFormatter(new SimpleFormatter());
+			warningFile.setFormatter(new SimpleFormatter());
+			fineFile.setFormatter(new SimpleFormatter());
+			
+			logger.setLevel(Level.ALL);
+			fineFile.setLevel(Level.FINE);
+			warningFile.setLevel(Level.WARNING);
+			
+			logger.addHandler(logFile);
+			logger.addHandler(warningFile);
+			logger.addHandler(fineFile);
+	}	
+	
+	
+	public static MyLogger getLogger(){
+		return instance;
+	}
+
+	
+	public void log(String msg){
+		
+		logger.finest(msg);
+		logger.finer(msg);
+		logger.fine(msg);
+		logger.config(msg);
+		logger.info(msg);
+		logger.warning(msg);
+		logger.severe(msg);
+		
+	}
+	
+	public void fine(String msg){
+		logger.fine(msg);
+	}
+	
+	public void warning(String msg){
+		logger.warning(msg);
+	}
+}
+```
+
+LoggerTest.java
+```
+public class LoggerTest {
+
+	public static void main(String[] args) {
+
+		MyLogger myLogger = MyLogger.getLogger();
+		
+		myLogger.log("test");
+	}
+
+}
+```
+
+StudentNameFormatException.java
+```
+public class StudentNameFormatException extends IllegalArgumentException{
+
+	public StudentNameFormatException(String message){
+		super(message);
+	}
+}
+```
+
+Student.java
+```
+public class Student {
+
+	private String studentName;
+	MyLogger myLogger = MyLogger.getLogger();
+	
+	public Student(String studentName){
+
+		if(studentName == null){
+		
+			throw new StudentNameFormatException("name must not be null");
+		}
+		if( studentName.split(" ").length > 3)
+			throw new StudentNameFormatException("이름이 너무 길어요");
+		
+		this.studentName = studentName;
+	}
+
+	
+	public String getStudentName() {
+		
+		myLogger.fine("begin getStudentName()");
+		
+		return studentName;
+	}
+}
+```
+
+StudentTest.java
+```
+public class Student {
+
+	private String studentName;
+	MyLogger myLogger = MyLogger.getLogger();
+	
+	public Student(String studentName){
+
+		if(studentName == null){
+		
+			throw new StudentNameFormatException("name must not be null");
+		}
+		if( studentName.split(" ").length > 3)
+			throw new StudentNameFormatException("이름이 너무 길어요");
+		
+		this.studentName = studentName;
+	}
+
+	
+	public String getStudentName() {
+		
+		myLogger.fine("begin getStudentName()");
+		
+		return studentName;
+	}
+}
+```
