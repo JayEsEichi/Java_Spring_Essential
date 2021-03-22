@@ -3,6 +3,9 @@
 ## reduce() 연산
 
 - 정의된 연산이 아닌 프로그래머가 직접 구현한 연산을 적용
+```
+T reduce(T identify, BinaryOperator<T> accumulator)
+```
 
 - 최종 연산으로 스트림의 요소를 소모하며 연산을 수행
 
