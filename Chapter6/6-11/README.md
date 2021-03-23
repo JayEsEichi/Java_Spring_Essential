@@ -176,29 +176,29 @@ public class Student {
 
 StudentTest.java
 ```
-public class Student {
-
-	private String studentName;
-	MyLogger myLogger = MyLogger.getLogger();
+public class StudentTest {
 	
-	public Student(String studentName){
-
-		if(studentName == null){
+	public static void main(String[] args) {
+	
+		MyLogger myLogger = MyLogger.getLogger();
 		
-			throw new StudentNameFormatException("name must not be null");
+		String name = null;
+		try{
+			Student student = new Student(name);
+			
+		}catch( StudentNameFormatException e ){
+			myLogger.warning(e.getMessage());
 		}
-		if( studentName.split(" ").length > 3)
-			throw new StudentNameFormatException("이름이 너무 길어요");
 		
-		this.studentName = studentName;
+		try{
+			Student student = new Student("Edward Jon Kim Test");
+		}catch ( StudentNameFormatException e){
+			myLogger.warning(e.getMessage());
+		}
+		
+		Student student = new Student("James");
 	}
-
 	
-	public String getStudentName() {
-		
-		myLogger.fine("begin getStudentName()");
-		
-		return studentName;
-	}
 }
+
 ```
