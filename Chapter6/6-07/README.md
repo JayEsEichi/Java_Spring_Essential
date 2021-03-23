@@ -16,7 +16,7 @@
     CustomerKim
     이름 : 김유신
     나이 : 20 
-    비용 : 50
+    비용 : 100
 
     CustomerHong
     이름 : 홍길동
