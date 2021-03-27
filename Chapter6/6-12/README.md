@@ -10,3 +10,26 @@
 
 ![io](./img/io.png)
 
+## 입출력 스트림의 구분
+
+- 대상 기준 : 입력 스트림 / 출력 스트림
+
+- 자료의 종료 : 바이트 스트림 / 문자 스트림
+
+- 기능 : 기반 스트림 / 보조 스트림
+
+## 입력 스트림과 출력 스트림
+
+- 입력 스트림 : 대상으로 부터 자료를 읽어 들이는 스트림
+
+- 출력 스트림 : 대상으로 자료를 출력하는 스트림
+
+- 스트림의 종류
+
+| 종류 | 예시 |
+| ------ | ------ |
+| 입력 스트림 | FileInputStream, FileReader, BufferedInputStream, BufferedReader 등 |
+| 출력 스트림 | FileOutputStream, FileWriter, BufferedOutputStream, BufferedWriter 등 |
+
+
+
