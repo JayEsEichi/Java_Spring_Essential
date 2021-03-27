@@ -33,5 +33,16 @@
 | 입력 스트림 | FileInputStream, FileReader, BufferedInputStream, BufferedReader 등 |
 | 출력 스트림 | FileOutputStream, FileWriter, BufferedOutputStream, BufferedWriter 등 |
 
+## 바이트 단위 스트림과 문자 단위 스트림
+
+- 바이트 단위 스트림 : 동영상, 음악 파일, 실행 파일등의 자료를 읽고 쓸 때 사용
+
+- 문자 단위 스트림 : 바이트 단위로 자료를 처리하면 문자는 깨짐, 인코딩에 맞게 2바이트 이상으로 처리하도록 구현된 스트림 
+
+![byte](./img/byte.png)
+                   
+
+
+
 
 
