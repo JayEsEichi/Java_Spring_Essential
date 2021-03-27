@@ -41,7 +41,22 @@
 
 ![byte](./img/byte.png)
                    
+- 스트림의 종류
 
+| 종류 | 예시 |
+| ------ | ------ |
+| 바이트 스트림 | FileInputStream, FileOutputStream, BufferedInputStream, BufferedOutputStream 등 |
+| 문자 스트림 | FileReader, FileWriter, BufferedReader, BufferedWriter 등 |
+
+## 기반 스트림과 보조 스트림
+
+- 기반 스트림 : 대상에 직접 자료를 읽고 쓰틑 기능의 스트림
+
+- 보조 스트림 : 직접 읽고 쓰는 기능은 없이 추가적인 기능을 더해 주는 스트림
+
+- 보조 스트림은 직접 읽고 쓰는 기능은 없으므로 항상 기반 스트림이나 또 다른 보조 스트림을 생성자의 매개 변수로 포함함
+
+![second](./img/second.png)
 
 
 
