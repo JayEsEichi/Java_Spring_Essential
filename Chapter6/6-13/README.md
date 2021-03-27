@@ -4,8 +4,9 @@
 
 ```
 public class System{ 
-		public static PrintStream out; 
-		public static InputStream in; 
-		public static PrintStream err; 
+	public static PrintStream out; 
+	public static InputStream in; 
+	public static PrintStream err; 
+}
 ```
 
