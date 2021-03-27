@@ -58,6 +58,11 @@
 
 ![second](./img/second.png)
 
+- 스트림의 종류
 
+| 종류 | 예시 |
+| ------ | ------ |
+| 기반 스트림 | FileInputStream, FileOutputStream, FileReader, FileWriter 등 |
+| 보조 스트림 | InputStreamReader, OutputStreamWriter, BufferedInputStream, BufferedOutputStream 등 |
 
 
