@@ -14,3 +14,14 @@
 
 ![decorator](./img/decorator.png)
 
+## 커피를 만들어보아요~
+
+    Decorator Pattern을 활용하여 커피를 만들어 봅시다.
+
+    아메리카노
+    카페 라떼 = 아메리카노 + 우유
+    모카 커피 = 아메리카노 + 우유 + 모카시럽
+    크림 올라간 모카커피 = 아메리카노 + 우유 + 모카시럽 + whipping cream
+
+
+
