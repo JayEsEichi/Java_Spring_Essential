@@ -28,6 +28,30 @@
     커피는 컴포넌트고, 우유, 모카시럽, whipping cream은 모두 데코레이터임
     
     
+## 예제 
+
+```
+public abstract class Coffee {
+	
+	public abstract void brewing();
+}
+```
+
+```
+public abstract class Decorator extends Coffee{
+
+	Coffee coffee;
+	public Decorator(Coffee coffee){
+		this.coffee = coffee;
+	}
+	
+	@Override
+	public void brewing() {
+		coffee.brewing();
+	}
+
+}
+```
 
 
 
