@@ -1,6 +1,6 @@
 # 14. 바이트 단위 입출력 스트림
 
-# InputStream 
+## InputStream 
 
 - 바이트 단위 입력 스트림 최상위 추상 클래스
 
@@ -98,6 +98,13 @@ public class FileInputStreamTest3 {
 				}
 				System.out.println(": " +i + "바이트 읽음" );
 			}
+			 
+			/*while ( (i = fis.read(bs, 1, 9)) != -1){
+				for(int k= 0; k<i; k++){
+					System.out.print((char)bs[k]);
+				}
+				System.out.println(": " +i + "바이트 읽음" );
+			}*/
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -108,7 +115,7 @@ public class FileInputStreamTest3 {
 ![byte](./img/byte.png)
 
 
-# OutputStream
+## OutputStream
 
 - 바이트 단위 출력 스트림 최상위 추상 클래스
 
@@ -131,3 +138,77 @@ public class FileInputStreamTest3 {
 | int write(byte b[], int off, int len) | b[] 배열에 있는 자료의 off 위치부터 len 개수만큼 자료를 출력합니다. |
 | void flush() | 출력을 위해 잠시 자료가 머무르는 출력 버퍼를 강제로 비워 자료를 출력합니다. |
 | void close() | 출력 스트림과 연결된 대상 리소스를 닫습니다. 출력 버퍼가 비워집니다. |
+
+
+### FileOutputStream 예제
+
+- 파일에 한 바이트씩 쓰기
+
+```
+public class FileOutputStreamTest1 {
+
+	public static void main(String[] args) {
+		
+		try(FileOutputStream fos = new FileOutputStream("output.txt")){
+			fos.write(65);  //A
+			fos.write(66);  //B
+			fos.write(67);  //C
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+		System.out.println("출력이 완료되었습니다.");
+	}
+}
+```
+
+- byte[] 배열에 A-Z 까지 넣고 배열을 한꺼번에 파일에 쓰기
+
+```
+public class FileOutputStreamTest2 {
+
+	public static void main(String[] args) throws IOException {
+		
+		FileOutputStream fos = new FileOutputStream("output2.txt",true);
+		try(fos){ //java 9 부터 제공되는 기능
+		
+			byte[] bs = new byte[26];
+			byte data = 65;        //'A' 의 아스키 값
+			for(int i = 0; i < bs.length; i++){  // A-Z 까지 배열에 넣기
+				bs[i] = data;
+				data++;
+			}
+			
+			fos.write(bs);  //배열 한꺼번에 출력하기
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+		System.out.println("출력이 완료되었습니다.");
+	}
+}
+```
+
+- byte[] 배열의 특정 위치에서 부터 정해진 길이 만큼 쓰기
+
+```
+public class FileOutputStreamTest3 {
+
+	public static void main(String[] args) {
+		 
+		try(FileOutputStream fos = new FileOutputStream("output3.txt"))
+		{
+		
+			byte[] bs = new byte[26];
+			byte data = 65;     //'A' 의 아스키 값
+			for(int i = 0; i < bs.length; i++){  // A-Z 까지 배열에 넣기
+				bs[i] = data;
+				data++;
+			}
+			fos.write(bs, 2, 10);   // 배열의 2 번째 위치부터 10 개 바이트 출력하기
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+		System.out.println("출력이 완료되었습니다.");
+	}
+}
+```
+
