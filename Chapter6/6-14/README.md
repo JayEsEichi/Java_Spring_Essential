@@ -212,3 +212,8 @@ public class FileOutputStreamTest3 {
 }
 ```
 
+### flush() 와 close() 메서드
+
+- 출력 버퍼를 비울때 flush() 메서드를 사용
+
+- close() 메서드 내부에서 flush()가 호출되므로 close()메서드가 호출되면 출력 버퍼가 비워짐
