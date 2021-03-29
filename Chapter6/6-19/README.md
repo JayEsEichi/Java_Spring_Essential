@@ -53,5 +53,86 @@ public abstract class Decorator extends Coffee{
 }
 ```
 
+```
+public class Latte extends Decorator{
+
+	public Latte(Coffee coffee) {
+		super(coffee);
+	}
+
+	
+	public void brewing() {
+		super.brewing();
+		System.out.print("Adding Milk ");
+	}
+}
+```
+
+```
+public class Mocha extends Decorator{
+
+	public Mocha(Coffee coffee) {
+		super(coffee);
+		// TODO Auto-generated constructor stub
+	}
+
+	public void brewing() {
+		super.brewing();
+		System.out.print("Adding Mocha Syrup ");
+	}
+}
+```
+
+```
+public class WhippedCream extends Decorator{
+
+	public WhippedCream(Coffee coffee) {
+		super(coffee);
+	}
+
+	public void brewing() {
+		super.brewing();
+		System.out.print("Adding WhippedCream ");
+	}
+}
+```
+
+```
+public class KenyaAmericano extends Coffee{
+
+	@Override
+	public void brewing() {
+		System.out.print("KenyaAmericano ");
+	}
+
+}
+```
+
+```
+public class CoffeeTest {
+
+	public static void main(String[] args) {
+
+		Coffee kenyaAmericano = new KenyaAmericano();
+		kenyaAmericano.brewing();
+		System.out.println();
+		
+		Coffee kenyaLatte = new Latte(kenyaAmericano);
+		kenyaLatte.brewing();
+		System.out.println();
+		
+		Mocha kenyaMocha = new Mocha(new Latte(new KenyaAmericano()));
+		kenyaMocha.brewing();
+		System.out.println();
+		
+		WhippedCream etiopiaWhippedMocha = 
+				new WhippedCream(new Mocha(new Latte( new EtiopiaAmericano())));
+		etiopiaWhippedMocha.brewing();
+		System.out.println();
+		
+	}
+
+}
+```
 
 
