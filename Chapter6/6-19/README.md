@@ -12,7 +12,7 @@
 
 - 지속적인 기능의 추가와 제거가 용이함
 
-- decorator와 component는 동일한 것이 아님 ( FileInputStream 만이 파일에서 읽는 기능이 제공 됨)
+- decorator와 component는 동일한 것이 아님 ( 기반 스트림 클래스가 직접 읽고 쓸수 있음, 보조 스트림은 추가적인 기능 제공)
 
 ![decorator](./img/decorator.png)
 
