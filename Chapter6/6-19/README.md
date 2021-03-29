@@ -109,6 +109,17 @@ public class KenyaAmericano extends Coffee{
 ```
 
 ```
+public class EtiopiaAmericano extends Coffee{
+
+	@Override
+	public void brewing() {
+		System.out.print("EtiopiaAmericano ");
+	}
+
+}
+```
+
+```
 public class CoffeeTest {
 
 	public static void main(String[] args) {
