@@ -23,7 +23,7 @@
 | int read(byte b[], int off, int len) | 입력 스트림으로 부터 b[] 크기의 자료를 b[]의 off변수 위치부터 저장하며 len 만큼 읽습니다. 읽은 자료의 바이트 수를 반환합니다. |
 | void close() | 입력 스트림과 연결된 대상 리소스를 닫습니다. |
 
-## FileInputStream 예제
+### FileInputStream 예제
 
 - 파일에서 한 바이트씩 자료 읽기
 ```
