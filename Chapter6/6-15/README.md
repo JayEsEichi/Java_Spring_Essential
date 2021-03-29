@@ -71,7 +71,6 @@ public class FileReaderTest {
 | void close() | 파일과 연결된 스트림을 닫습니다. 출력 버퍼도 비워집니다. |
 
 
-
 ### FileWriter
 
 - 파일에 문자 쓰기
