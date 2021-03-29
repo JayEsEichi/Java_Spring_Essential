@@ -17,3 +17,77 @@
 
 ![deco](./img/decostream.png)
 
+### InputStreamReader와 OutputStreamWriter
+
+- 바이트 단위로 읽거나 쓰는 자료를 문자로 변환해주는 보조 스트림
+
+- FilterInputStream으로 읽은 자료를 문자로 변환해주는 예
+
+```
+public class InputStreamReaderTest {
+
+	public static void main(String[] args) {
+
+		try(InputStreamReader isr = new InputStreamReader(new FileInputStream("reader.txt"))){
+			int i;
+			while( (i = isr.read()) != -1){  //보조 스트림으로 읽습니다.
+				System.out.print((char)i);
+			}
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+	}
+}
+```
+
+### BufferedInputStream과 BufferedOutputStream 
+
+- 약 8k의 배열이 제공되어 입출력이 빠르게 하는 기능이 제공되는 보조 스트림
+
+- BufferedReader와 BufferedWriter는 문자용 입출력 보조 스트림
+
+```
+public class BufferedStreamTest {
+
+	public static void main(String[] args) {
+
+		long millisecond = 0;
+		try(FileInputStream fis = new FileInputStream("a.zip");
+				FileOutputStream fos = new FileOutputStream("copy.zip");
+				BufferedInputStream bis = new BufferedInputStream(fis);
+				BufferedOutputStream bos = new BufferedOutputStream(fos)){
+		
+			millisecond = System.currentTimeMillis();
+			
+			int i;
+			while( ( i = bis.read()) != -1){
+				bos.write(i);
+			}
+			
+			millisecond = System.currentTimeMillis() - millisecond;
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+		
+		System.out.println("파일 복사 하는 데 " + millisecond + " milliseconds 소요되었습니다.");
+	}
+}
+```
+
+### DataInputStream과 DataOutputStream
+
+- 자료가 메모리에 저장된 상태 그대로 읽거나 쓰는 스트림
+
+- DataInputStream 메서드
+
+![datain](./img/datainput.png)
+
+- DataOutputStream 메서드
+
+![dataout](./img/dataoutput.png)
+
+
+
+
+
+
