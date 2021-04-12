@@ -21,6 +21,5 @@
 19. [데코레이터 패턴을 활용한 커피 머신 프로그램](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-19/README.md)
 20. [자바에서 Thread 만들기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-20/README.md)
 21. [Thread 클래스의 여러 메서드들](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-21/README.md)
-22. [멀티 Thread 프로그래밍에서의 동기화](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-22/README.md)
-23. [자바에서 동기화를 구현하는 synchronized](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-23/README.md)
-24. [wait()/notify() 에서드를 활용한 동기화 프로그래밍](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-24/README.md)
+22. [자바에서 동기화를 구현하는 synchronized](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-22/README.md)
+23. [wait()/notify() 에서드를 활용한 동기화 프로그래밍](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter6/6-23/README.md)
