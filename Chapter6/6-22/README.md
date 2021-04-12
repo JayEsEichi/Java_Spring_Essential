@@ -1,1 +1,92 @@
+# 22. 멀티 Thread 프로그래밍에서의 동기화
 
+## critical section 과 semaphore
+
+- 두 개 이상의 Thread 가 동시에 같은 자원에 접근. 여기서 접근하려는 자원은 critical section
+
+- semaphore : 열쇠를 가진 Thread만이 자원에 접근 할 수 있음 
+
+![semaphore](./img/semaphore.png)
+
+```
+class Bank{
+	
+	private int money = 10000;
+	
+	public synchronized  void saveMoney(int save){
+		
+		int m = this.getMoney();
+		
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		setMoney( m + save);
+	}
+	
+	public synchronized  void minusMoney(int minus){
+		
+		
+			int m = this.getMoney();
+			
+			try {
+				Thread.sleep(200);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+			setMoney( m - minus);
+			
+			
+	}
+	
+	public int getMoney(){
+		return money;
+	}
+	
+	public void setMoney(int money){
+		this.money = money;
+	}
+}
+
+class Park extends Thread{
+	
+	public  void run(){
+		System.out.println("start save");
+		SyncMain.myBank.saveMoney(3000);
+		System.out.println("saveMoney(3000): " + SyncMain.myBank.getMoney() );	
+	}
+}
+
+class ParkWife extends Thread{
+	
+	public void run(){
+		System.out.println("start minus");
+		SyncMain.myBank.minusMoney(1000);
+		System.out.println("minusMoney(1000): " + SyncMain.myBank.getMoney() );
+		
+	}
+	
+}
+
+public class SyncMain {
+
+	public static Bank myBank = new Bank();
+	
+	public static void main(String[] args) throws InterruptedException {
+		
+		Park p = new Park();
+		p.start();
+		
+		Thread.sleep(200);
+		
+		ParkWife pw = new ParkWife();
+		pw.start();
+	}
+
+}
+```
