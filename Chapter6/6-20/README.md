@@ -20,5 +20,11 @@
 
 - 각 thread 사이에서 공유하는 자원이 있을 수 있음 (자바에서는 static instance)
 
-- 
+- 여러 thread가 자원을 공유하여 작업이 수행되는 경우 서로 자원을 차지하려는 race condition이 발생할 수 있음
+
+- 이렇게 여러 thread가 공유하는 자원중 경쟁이 발생하는 부분을 critical section 이라고 함
+
+- critical section에 대한 동기화( 일종의 순차적 수행)를 구현하지 않으면 오류가 발생할 수 있음
+
+![critical](./img/critical.PNG)
 
