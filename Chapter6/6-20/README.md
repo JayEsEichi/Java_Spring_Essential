@@ -62,6 +62,8 @@ public class ThreadTest {
 
 ### Runnable 인터페이스 구현하여 만들기
 
+- 자바는 다중 상속이 허용되지 않으므로 이미 다른 클래스를 상속한 경우 thread를 만들기 위해 Runnable interface를 구현하도록 한다.
+
 ```
 class MyThread2 implements Runnable{
 
