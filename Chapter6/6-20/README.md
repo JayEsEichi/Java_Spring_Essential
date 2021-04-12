@@ -98,3 +98,7 @@ public class ThreadTest2 {
 
 }
 ```
+
+## Thread Status
+
+![status](./img/status.png)
