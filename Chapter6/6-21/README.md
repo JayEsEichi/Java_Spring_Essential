@@ -129,14 +129,14 @@ public class JoinTest extends Thread{
 
 - Thread 종료하기 예제
 
-	세 개의 thread를 만든다.
-	각각 무한 루프를 수행하게 한다. 	
-	작업 내용 this.sleep(100);
+		세 개의 thread를 만든다.
+		각각 무한 루프를 수행하게 한다. 	
+		작업 내용 this.sleep(100);
 	
-	‘A’ 를 입력 받으면 첫 번째 thread를
-	‘B’ 를 입력 받으면 두 번째 thread를
-	‘C’ 를 입력 받으면 세 번째 thread를 
-	‘M’을 입력 받으면 모든 thread와 main() 함수를 종료한다.
+		‘A’ 를 입력 받으면 첫 번째 thread를
+		‘B’ 를 입력 받으면 두 번째 thread를
+		‘C’ 를 입력 받으면 세 번째 thread를 
+		‘M’을 입력 받으면 모든 thread와 main() 함수를 종료한다.
 
 ```
 public class TerminateThread extends Thread{
