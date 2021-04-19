@@ -20,12 +20,46 @@
 
 - 한번 비교 할때 마다 1/2씩 범위가 좁혀진다.
 
+## 프로그래밍
+```
+public class BinarySearchProblem {
 
-- 재귀 함수 사용
+	public static void main(String[] args) {
 
-
-
-
-- 반복문 사용
-
-
+		int[] numbers = {12, 25, 31, 48, 54, 66, 70, 83, 95, 108};
+		
+		int target = 120;
+		 
+		int left = 0;
+		int right = numbers.length-1;
+		int mid = (left + right)/2;
+		
+		int temp = numbers[mid];
+		boolean find = false;
+		
+		while(left <= right) {
+			
+			if(target == temp) {  //수를 찾은 경우
+				find = true;
+				break;
+			}
+			else if(target < temp) { // 찾으려는 수가 더 작은 경우
+				right = mid-1;
+				
+			}
+			else {
+				left = mid+1;
+			}
+			mid = (left + right)/2;
+			temp = numbers[mid];
+		}
+		
+		if(find == true) 
+		{
+			mid++;
+			System.out.println("찾는 수는 " + mid + "번째 있습니다.");
+		}
+		else System.out.println("찾는 수가 없습니다.");
+	}
+}
+```
