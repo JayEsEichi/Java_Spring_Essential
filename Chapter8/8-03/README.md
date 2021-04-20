@@ -64,6 +64,9 @@ public class InsertionSort {
 - 퀵 정렬 이외의 다른 알고리즘은 추가적인 메모리가 필요함
 
 ### Heap Sort 구현해보기
+
+![heap](./img/heap.png)
+
 ```
 public class HeapSort {
 
