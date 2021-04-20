@@ -12,6 +12,8 @@
 
 - 두 번째 요소 부터 이전 요소들과 비교하면서 insert 될 위치를 찾아가며 정렬하는 알고리즘
 
+![insert](./img/insert.png)
+
 ```
 public class InsertionSort {
 
