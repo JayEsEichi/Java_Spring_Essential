@@ -2,7 +2,7 @@
 
 ## 그래프 탐색
 
-![graph](./img/graph.png)
+![traversal](./img/traversal.png)
 
 ### 깊이 우선 탐색(DFS)
 
