@@ -1,5 +1,6 @@
 # 05. 최단거리 구하기 문제
 
+![dijkstra](./img/dijkstra.png)
 
 ##
 ```
