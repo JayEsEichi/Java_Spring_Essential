@@ -74,5 +74,21 @@ public int fibonacciMem(int n) {
 		return result;
 }
 ```
+## 실행 코드
 
+```
+public static void main(String[] args) {
+
+		Fibonacci fib = new Fibonacci(100);
+		
+		int result = fib.fibonacciRecur(10);
+		System.out.println(result);
+		
+		result = fib.fibonacciIter(10);
+		System.out.println(result);
+		
+		result = fib.fibonacciMem(10);
+		System.out.println(result);
+}
+```
 
