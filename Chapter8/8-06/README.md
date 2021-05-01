@@ -56,7 +56,7 @@ public class Move {
 }
 ```
 
-### 움직임을 표시할 변수들
+### 움직임을 표시할 변수들 (Robot.java)
 
 ```
     public static int NUMDIRECTIONS =  4;
@@ -81,7 +81,7 @@ public class Move {
 	int[][] markArray = new int[8][8];
 ```
 
-### 출구를 찾아라
+### 출구를 찾아라 (Robot.java)
 
 ```
 public void findPath( int startX, int startY, int endX, int endY) {
@@ -136,7 +136,7 @@ public void findPath( int startX, int startY, int endX, int endY) {
 	}
 ```
 
-### 찾은 길 출력하기
+### 찾은 길 출력하기 (Robot.java)
 
 ```
 public void showPath() {
@@ -184,6 +184,24 @@ public void showPath() {
 		}
 		System.out.println();
 	}
+```
+
+### 실행하기
+```
+public class MazeTest {
+
+	public static void main(String[] args) {
+		
+		Robot robot;
+		System.out.println("출구는 입니다. (7,7)");
+		
+		robot = new Robot();	
+				
+		robot.findPath( 0,0, 7,7);
+		robot.showPath();
+		
+	}
+}
 ```
 
 ![path](./img/path.png)
