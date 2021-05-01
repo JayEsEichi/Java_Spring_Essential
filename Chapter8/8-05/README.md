@@ -1,8 +1,20 @@
 # 05. 최단거리 구하기 문제
 
+![short](./img/short.png)
+
+
+
 ![dijkstra](./img/dijkstra.png)
 
-##
+## 문제 풀이
+
+- 모든 노드 중 연결된 최단거리를 가진 노드를 찾아서
+
+- 노드 v에 인접한 노드 w 에 대해 다음 조건이 성립하면 w 에 대한 최단 거리를 업데이트 한다
+
+  (즉 원래 w로 가던 거리보다 v를 거쳐 가는 거리가 더 가까우면 w로 가는 거리는 v를 거쳐가는 것으로 최단 거리를 수정)
+
+  Yw = Yv + Cvw if Yv + Cvw < Yw    
 ```
 class MyGraph{
     private int count;   //노드 수           
