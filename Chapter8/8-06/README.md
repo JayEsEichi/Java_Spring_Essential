@@ -185,3 +185,5 @@ public void showPath() {
 		System.out.println();
 	}
 ```
+
+![path](./img/path.png)
