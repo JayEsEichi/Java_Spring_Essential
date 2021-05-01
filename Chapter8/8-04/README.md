@@ -52,7 +52,7 @@ public class DfsSearch {
 		stack = new Stack<Integer>();
 	}
 	
-	public void bfsTraversal() {
+	public void dfsTraversal() {
 	
 		stack.push(0);
 		visited[0] = true;
@@ -88,7 +88,7 @@ public class DfsSearch {
 		graph.addEdges(3, 7, 1);
 		
 		dfsSearch.matrix = graph.getMatrix();
-		dfsSearch.bfsTraversal();
+		dfsSearch.dsfTraversal();
 			
 	}
 }
