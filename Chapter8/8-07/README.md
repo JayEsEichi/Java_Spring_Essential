@@ -51,7 +51,6 @@ public int fibonacciMem(int n) {
 		
 		value[0] = 0;
 		value[1] = 1;
-		int result = 0;
 		
 		if (n == 0) {
 			return value[0];
@@ -61,17 +60,14 @@ public int fibonacciMem(int n) {
 			return value[1];
 		}
 		
-		for(int i = 2; i<=n; i++) {
+		int i;
+		for( i = 2; i<=n; i++) {
 			
-			result = value[i-1] + value[i-2];
-			
-			if(value[i] == 0) {
-				value[i] = result;
-			}
-
+			value[i] = value[i-1] + value[i-2];
+	
 		}
 		
-		return result;
+		return value[i-1];
 }
 ```
 ## 실행 코드
