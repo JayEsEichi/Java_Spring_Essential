@@ -1,6 +1,6 @@
 # 05. 최단거리 구하기 문제
 
-![short](./img/short.png)
+![short](./img/short1.png)
 
 
 
