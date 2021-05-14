@@ -1,1 +1,7 @@
-
+01. [나열된 수에서 최솟값과 최댓값 구하기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter8/8-01/README.md)
+02. [정렬된 수에서 하나의 수의 위치 찾기(이진탐색)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter8/8-02/README.md)
+03. [정렬 알고리즘](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter8/8-03/README.md)
+04. [DFS(Depth First Search)와 BFS(Breadth First Search)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter8/8-04/README.md)
+05. [최단거리 구하기 문제](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter8/8-05/README.md)
+06. [미로 찾기 문제](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter8/8-06/README.md)
+07. [피보나치 수열 문제 여러 방식으로 해결하기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter8/8-07/README.md)
