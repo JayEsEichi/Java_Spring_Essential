@@ -11,7 +11,7 @@ M 이상 N 이하의 수가 나열되어 순서에 상관없이 나열되어 있
 수행에 걸리는 시간은 데이터의 개수가 n개라고 할 때, O(n)입니다.
 
 
-₩₩₩
+```
 public class Counting {
 
 	public static void main(String[] args) {
@@ -45,4 +45,4 @@ public class Counting {
 	}
 
 }
-₩₩₩
+```
