@@ -7,4 +7,4 @@
 07. [피보나치 수열 문제 여러 방식으로 해결하기](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter8/8-07/README.md)
 08. [여러 종류의 동전으로 정해진 가격 지불하는 문제(그리디 알고리즘)](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter8/8-08/README.md)
 09. [GreyGode 문제](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter8/8-09/README.md)
-10. [특정 범위의 숫자 나열되어 있을 때 그 개수를 세어봅시다.](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter8/8-10/README.md)
+10. [특정 범위의 숫자 나열되어 있을 때 각 숫자의 개수를 세어봅시다.](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter8/8-10/README.md)
