@@ -297,7 +297,7 @@ public class MajorEvaluation implements GradeEvaluation{
 }
 ```
 
-## 리포트 클래스 (Builder Pattern을 활용)
+## 리포트 클래스 
 
 - 학점 평가에 대한 클래스들을 인스턴스화 하고 이에 대한 배열을 만들어 각 과목에 점수를 산정할 때 필수 과목인지 일반 과목인지에 따라 각 정책 클래스가 학점을 평가할 수 있도록 구현 합니다.
 
