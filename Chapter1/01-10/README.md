@@ -45,7 +45,7 @@ public class ConstantTest {
 
 - 서로 다른 자료형 간에 연산등의 수행을 위해 하나의 자료형으로 통일하는 것
 
-- 묵시적 형 변환(explicit type conversion, 자동 형 변환)과 명시적 형 변환(implicit type conversion, 강제 형 변환)이 있음
+- 묵시적 형 변환(implicit type conversion, 자동 형 변환)과 명시적 형 변환(explicit type conversion, 강제 형 변환)이 있음
 
 - 바이트 크기가 작은 자료형에서 큰 자료형으로 형 변환은 자동으로 이루어 짐
 
