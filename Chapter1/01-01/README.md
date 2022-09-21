@@ -28,7 +28,7 @@
 
 + 프로그램의 구현을 시간의 흐름순이 아닌 객체간의 관계와 협력을 기반으로 프로그램 하는 것
 
-+ Object oriented programming(OOP)  이라고 함 ( cf. 절차 지향 프로그래밍 proedural programming )
++ Object oriented programming(OOP)  이라고 함 ( cf. 절차 지향 프로그래밍 procedural programming )
  
 + 사용 하는 언어 : Java, C++, C#, Python, JavaScript, Ruby 등 다수
 
