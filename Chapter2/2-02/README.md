@@ -24,14 +24,6 @@ public class Student {
 }
 ```
 
-| 속성 | 자료형 | 변수 이름 | 설명 |
-| ------ | ------ | ------ |------  |
-| 학번     |  int   | studentId | 학번은 정수로 나타냄 
-| 이름      | String | studentName | 이름은 문자의 연속으로 되어있음 문자열을 지원하는 JDK의 String 클래스를 사용        |
-| 전공 코드  | int  | majorCode | 전공은 정수로 나타냄. 전공 객체를 참조하여 전공 이름을 찾을 수 있음 |
-| 학년      | int  | grade  | 학년은 정수로 나타냄       |
-
-
 - 주문 클래스
 ```
 public class Order {
